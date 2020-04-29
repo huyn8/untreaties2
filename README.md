@@ -8,3 +8,6 @@ Download PDFs from the database -> Converting PDFs to .TXTs -> sorting the .TXT 
 See the code [here](./sorting_in_folders.py)
 
 See the output [here](./2019)
+
+
+*\*More coming soon\**
