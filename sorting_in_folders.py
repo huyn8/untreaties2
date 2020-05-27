@@ -1,5 +1,4 @@
-# import pandas as pd
-# import numpy as np
+
 import requests
 import PyPDF2
 import os
@@ -99,7 +98,3 @@ for year in years:
                 link_num+=1
     os.chdir(os.path.abspath(os.path.join(os.getcwd(), os.pardir)))
 
-        # if link_num == 2:#delete later
-        #     break#delete later
-
-    
