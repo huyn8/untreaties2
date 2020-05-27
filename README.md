@@ -10,4 +10,11 @@ See the code [here](./sorting_in_folders.py)
 See the output [here](./2019)
 
 
-*\*More coming soon\**
+### Part 1.5 (Updated 5/26/2020): 
+An extension of task 1
+
+Automating the downloading process for PDF files from the UN database and putting them in appropriate folders. 
+
+See the code [here](./task1_extension.py)
+
+See out output [here](https://github.com/huyn8/untreaties2/tree/master/CHAPTER%20I)
