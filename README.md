@@ -23,6 +23,6 @@ See out output [here](https://github.com/huyn8/untreaties2/tree/master/CHAPTER%2
 ### Part 2 (Phase 2) (Updated 08/20/2020): 
 Exploring machine learning and data modeling
 
-See the code [here](./phase 2/phase2.py)
+See the code [here](https://github.com/huyn8/untreaties2/blob/master/phase%202/phase2.py)
 
  
