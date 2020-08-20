@@ -18,3 +18,11 @@ Automating the downloading process for PDF files from the UN database and puttin
 See the code [here](./task1_extension.py)
 
 See out output [here](https://github.com/huyn8/untreaties2/tree/master/CHAPTER%20I)
+
+
+### Part 2 (Phase 2) (Updated 08/20/2020): 
+Exploring machine learning and data modeling
+
+See the code [here](./phase 2/phase2.py)
+
+ 
