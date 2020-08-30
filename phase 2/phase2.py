@@ -6,7 +6,7 @@ import csv
 DATA CREATION
 """
 #Reading in content (data) of all the txt files
-path = os.getcwd() + r'\dataset'
+path = os.getcwd() + r'/phase 2/dataset'
 file_content = []
 for file in os.listdir(path):
     try:
@@ -180,19 +180,28 @@ tn_list = df['treatyNum'].values.tolist()
 
 # Make a list of keywords 
 prec1_list = ['must','should','can','shall'] 
-prec4_list = ['annex','index','appendix']
+prec4_list = ['annex','index','appendix','schedules','schedule']
+oblig1_list = ['dispute','arbitration','mediation']   # ADD MORE
+oblig2_list = ['monitor','data','report','collection','submission','investigation']
+oblig3_list = ['']   # CHECK WITH BREE
+oblig5_list = ['domestic','national authorities','rights of action','legislation']
+deleg1_list = ['International Labor Organization','International Court of Justice']   # ADD MORE
+deleg2_list = ['court','commision','tribunal','task force']    # ADD MORE
+deleg3_list = ['']   # CHECK WITH BREE
+f_list = ['reservation']   # ADD MORE
+w_list = ['denunciation, expiry, terminate, termination, withdrawal']   # ADD MORE
 
 # numpy array for csv final output
-row_content = np.empty((0, 3), str)
+row_content = np.empty((0, 12), str)
 i = 0
 
 # for each treaty...
 for txt in content_list:
 
     treatyNumber = tn_list[i]
-
+    i+=1
     # default as n
-    prec1, prec4 = ['n','n']
+    prec1, prec4, oblig1,oblig2,oblig3,oblig5,deleg1,deleg2,deleg3,flexibility,withdrawal = ['n','n','n','n','n','n','n','n','n','n','n']
 
     for elem in prec1_list:
         if(elem in txt):
@@ -203,9 +212,62 @@ for txt in content_list:
         if(elems in txt):
             prec4 = 'y'   
             continue 
-    i+=1
+    
+    #Is there a dispute resolution provision?
+    for elem in oblig1_list:
+        if(elem in txt):
+            oblig1 ='y'
+            continue
+    
+    #Does the agreement call for compliance monitoring?
+    for elem in oblig2_list:
+        if(elem in txt):
+            oblig2 ='y'
+            continue
+    
+    # Is the agreement explicit about domestic legislation?
+    for elem in oblig5_list:
+        if(elem in txt):
+            oblig5 = 'y'
+            continue
+    
+    # Does the agreement confer any rights or responsibilities to non-state actors?
+    for elem in deleg1_list:
+        if(elem in txt):
+            deleg1 = 'y'
+    
+    # Does the agreement create any new bodies?
+    for elem in deleg2_list:
+        if(elem in txt):
+            deleg2 = 'y'
+            continue
+    
+    # Is there a provision allowing reservations, an opt out clause, or an escape clause?
+    for elem in f_list:
+        if(elem in txt):
+            flexibility = 'y'
+            continue
+    
+    # Does the agreement include a withdrawal clause?
+    for elem in w_list:
+        if(elem in txt):
+            withdrawal = 'y'
+            continue
+    
+    #########  WORK ON THIS   ##########
+    # Inducements to compliance are attempts to change the payoffs for cooperation and defection.
+    for elem in oblig3_list:
+        if(elem in txt):
+            oblig3_list ='y'
+            continue
+    
+    # Does this agreement entrust third parties with monitoring?
+    for elem in deleg3_list:
+        if(elem in txt):
+            deleg3 = 'y'
+            continue
 
-    row_content = np.append(row_content, np.array([[treatyNumber,prec1,prec4]]), axis=0)
+    row_content = np.append(row_content, np.array([[treatyNumber,prec1,prec4,oblig1,oblig2,oblig3,oblig5,deleg1,deleg2,deleg3,flexibility,withdrawal]]), axis=0)
     
 with open('computerLabel.csv', 'w', newline='', encoding='utf8',) as csv_file:
     writer = csv.writer(csv_file)
