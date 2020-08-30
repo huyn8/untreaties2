@@ -127,11 +127,90 @@ DATA ANALYSIS
 """
 FEATURE ENGINEERING
 """
-#IN PROGRESS...
+
+########## KMEANS FUNCTION ##########
+# @PRECONDITION: The following parameter inputs are valid 
+# 1. n_clusters: The number of clusters to form as well as the number of centroids to generate.
+#
+# 2. ‘k-means++’ : Method for initialization:
+#     - selects initial cluster centers for k-mean clustering in a smart way to speed up convergence. 
+#
+# 3. max_iter: Maximum number of iterations of the k-means algorithm for a single run.
+#
+# 4. n_init: Number of time the k-means algorithm will be run with different centroid seeds. 
+#   The final results will be the best output of n_init consecutive runs in terms of inertia.
 
 
+# #create vectorizer usingTfidfVectorizer class to fit and transform the document text
+# vectorizer = TfidfVectorizer(stop_words='english')
+# dfclean =  df_copy['cleanedContent'].values.tolist()
+# #print(dfclean)  
+# X = vectorizer.fit_transform(dfclean)
+    
+# true_k = 6
+# model = KMeans(n_clusters=true_k, init='k-means++', max_iter=100, n_init=1)
+# model.fit(X)
+
+# # get the centroids and features
+# order_centroids = model.cluster_centers_.argsort()[:, ::-1]
+# terms = vectorizer.get_feature_names()
+
+# # print the centroids into which clusters they belongs
+# for i in range(true_k):
+#     print('Cluster %d:' % i),
+#     for ind in order_centroids[i, :10]:
+#         print(' %s' % terms[ind])
+
+# # predict the text sentence 
+# print('\n')
+# print('Prediction')
+# prediction = model.predict(X)
+# print(prediction)
 
 """
 MODELING
+BRUTE FORCE
 """
+# Create column name to write csv 
+col_name = ['treatyNum', 'prec1','prec4','oblig1','oblig2','oblig3','oblig5','deleg1','deleg2','deleg3','Flexibility','Withdrawal']
+
+# dataframe of treaty number and content to list 
+content_list = df['cleanedContent'].values.tolist()
+tn_list = df['treatyNum'].values.tolist()
+
+# Make a list of keywords 
+prec1_list = ['must','should','can','shall'] 
+prec4_list = ['annex','index','appendix']
+
+# numpy array for csv final output
+row_content = np.empty((0, 3), str)
+i = 0
+
+# for each treaty...
+for txt in content_list:
+
+    treatyNumber = tn_list[i]
+
+    # default as n
+    prec1, prec4 = ['n','n']
+
+    for elem in prec1_list:
+        if(elem in txt):
+            prec1 = 'y'
+            continue
+        
+    for elems in prec4_list:
+        if(elems in txt):
+            prec4 = 'y'   
+            continue 
+    i+=1
+
+    row_content = np.append(row_content, np.array([[treatyNumber,prec1,prec4]]), axis=0)
+    
+with open('computerLabel.csv', 'w', newline='', encoding='utf8',) as csv_file:
+    writer = csv.writer(csv_file)
+    writer.writerow(col_name)
+    writer.writerows(row_content)
+    csv_file.close()
+    
 #IN PROGRESS...
