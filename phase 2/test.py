@@ -4,6 +4,14 @@ import csv
 import numpy as np
 import unittest
 
+"""
+The purpose of this unit testing is to compare the produced file "computerLabel.csv"
+agaisnt data from the orginal human-coded file "compare.csv" to see how accurate the output
+produced by the program is commpared to the human-coded output
+The measurement is a similarity score that will be calculated. The higher the similarity score
+the better
+
+"""
 class TestStringMethods(unittest.TestCase):
     def test_split(self):
         file_path_human = os.path.join(os.path.dirname(__file__), 'FinalTreatyCombo.csv')
