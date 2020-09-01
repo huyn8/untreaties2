@@ -3,6 +3,17 @@ import os
 import csv
 
 """
+The purpose of this program is to label text data into different categories 
+The different blocks of code below explain the processes of this program
+There are additional in-line comments in each block of code for
+further details on what a specfic part of the code does
+The import statements in "CLEANING DATA" section have to be uncommented
+for first time run to download necessary dependencies (packages). After that
+they can be commented again to avoid repeated downloads 
+
+"""
+
+"""
 DATA CREATION
 """
 #Reading in content (data) of all the txt files
@@ -61,9 +72,9 @@ df_copy = df.copy(deep=True)
 # print(df_copy.head(3))
 # print(df_copy.loc[1]['content'])
 
-# Panda dataframes (2d) can be broken down into series (1d)
-# Cleaning a panda 1d array (series)
-# Cleaning \r and \n, quotation marks, large spaces, possessive words
+#Panda dataframes (2d) can be broken down into series (1d)
+#Cleaning a panda 1d array (series)
+#Cleaning \r and \n, quotation marks, large spaces, possessive words
 df_copy['cleanedContent'] = df_copy['content'].str.replace("\r", " ")
 df_copy['cleanedContent'] = df_copy['cleanedContent'].str.replace("\n", " ")
 df_copy['cleanedContent'] = df_copy['cleanedContent'].str.replace("    ", " ")
@@ -77,7 +88,7 @@ df_copy['cleanedContent'] = df_copy['cleanedContent'].str.lower()
 punctuations = list("?:!.,;~﻿")
 
 for punctuation in punctuations:
-    df_copy['cleanedContent']  = df_copy['cleanedContent'] .str.replace(punctuation, '')
+    df_copy['cleanedContent']  = df_copy['cleanedContent'].str.replace(punctuation, '')
 
 #Initializing a lemmatizer object
 wordnet_lemmatizer = WordNetLemmatizer()
@@ -118,61 +129,12 @@ for stop_word in stop_words:
 # print(df_copy.head(3))
 # print(df_copy.loc[1]['cleanedContent'])
 
-"""
-DATA ANALYSIS
-"""
-#TBD
-
 
 """
-FEATURE ENGINEERING
-"""
-
-########## KMEANS FUNCTION ##########
-# @PRECONDITION: The following parameter inputs are valid 
-# 1. n_clusters: The number of clusters to form as well as the number of centroids to generate.
-#
-# 2. ‘k-means++’ : Method for initialization:
-#     - selects initial cluster centers for k-mean clustering in a smart way to speed up convergence. 
-#
-# 3. max_iter: Maximum number of iterations of the k-means algorithm for a single run.
-#
-# 4. n_init: Number of time the k-means algorithm will be run with different centroid seeds. 
-#   The final results will be the best output of n_init consecutive runs in terms of inertia.
-
-
-# #create vectorizer usingTfidfVectorizer class to fit and transform the document text
-# vectorizer = TfidfVectorizer(stop_words='english')
-# dfclean =  df_copy['cleanedContent'].values.tolist()
-# #print(dfclean)  
-# X = vectorizer.fit_transform(dfclean)
-    
-# true_k = 6
-# model = KMeans(n_clusters=true_k, init='k-means++', max_iter=100, n_init=1)
-# model.fit(X)
-
-# # get the centroids and features
-# order_centroids = model.cluster_centers_.argsort()[:, ::-1]
-# terms = vectorizer.get_feature_names()
-
-# # print the centroids into which clusters they belongs
-# for i in range(true_k):
-#     print('Cluster %d:' % i),
-#     for ind in order_centroids[i, :10]:
-#         print(' %s' % terms[ind])
-
-# # predict the text sentence 
-# print('\n')
-# print('Prediction')
-# prediction = model.predict(X)
-# print(prediction)
-
-"""
-MODELING
-BRUTE FORCE
+LABELING & CLASSIFYING
 """
 # Create column name to write csv 
-col_name = ['treatyNum', 'prec1','prec4','oblig1','oblig2','oblig3','oblig5','deleg1','deleg2','deleg3','Flexibility','Withdrawal']
+col_name = ['treatyNum', 'prec1','prec4','oblig1','oblig2','oblig3','oblig5','deleg1','deleg2','deleg3','flexibility','withdrawal']
 
 # dataframe of treaty number and content to list 
 content_list = df['cleanedContent'].values.tolist()

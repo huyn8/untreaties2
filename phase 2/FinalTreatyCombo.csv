@@ -1,0 +1,960 @@
+,treatyNum,year,multilateral,prec1,prec2,prec3,prec4,oblig1,oblig2,oblig3,oblig4,oblig5,deleg1,deleg2,deleg3,flexibility,withdrawal,notes?
+1,15746,1976,n,y,2,2,n,n,y,n,3,n,y,y,y,n,y,Another treaty that mentions Land Berlin
+2,15832,1973,IO,y,4,2,y,n,y,n,4,n,y,n,n,n,n,NA
+3,15957,1977,n,y,4,3,n,n,n,n,4,n,n,n,n,n,y,NA
+4,15990,1976,IO,n,NA,1,n,n,n,n,NA,n,n,n,n,n,n,"I coded the (1-x) items as n/a since this is another 1 page, 1 paragraph agreement"
+5,16085,1976,IO,n,NA,1,n,n,n,n,NA,n,n,n,n,n,n,n/a's same as above
+6,16156,1974,n,n,2,2,n,n,n,n,4,n,y,y,y,n,y,"I coded  delegation 1/3 as yes (?) because a new body is created, however it consists only of members of each government.  So I'm not sure if the new body is a non-state actor or not, but it does have monitoring and responsibilities"
+7,16174,1974,n,y,3,4,n,n,n,n,4,n,n,n,n,n,y,NA
+8,16322,1976,n,NA,NA,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"This ""treaty"" is really weird.  It isn't actually a treaty that has articles to follow, it's mostly a summary of how the countries felt after the initiation of the original treaty.  Update: It's the minutes of the 3rd Session of the committee"
+9,16492,1974,n,y,2,3,n,n,n,n,4,n,y,y,n,n,y,NA
+10,16549,1973,y,y,3,3,n,n,y,n,4,n,y,n,y,n,y,NA
+11,16578,1975,n,y,3,3,n,n,y,n,2,n,y,n,n,n,y,I've started to notice that a lot of the treatiest involving the U.S. are actually just memorandums of treaties or minutes of later meetings
+12,16596,1976,n,y,3,4,y,n,y,n,3,n,n,n,n,y,y,NA
+13,16606,1977,n,y,2,3,n,n,n,n,4,y,n,n,n,n,n,NA
+14,16671,1978,IO,y,4,6,y,y,y,n,4,y,n,n,n,y,y,NA
+15,16873,1977,n,y,3,3,y,y,n,n,3,n,n,n,n,n,y,NA
+16,16991,1976,IO,n,NA,1,n,n,n,n,NA,n,n,n,n,n,n,NA
+17,17065,1977,IO,n,NA,1,n,n,n,n,NA,n,n,n,n,n,n,NA
+18,17072,1978,IO,n,NA,1,n,n,n,n,NA,n,n,n,n,n,n,NA
+19,17321,1977,n,y,3,3,n,n,y,n,4,n,n,n,n,n,n,NA
+20,17354,1978,IO,n,NA,1,n,n,n,n,NA,n,n,n,n,n,n,NA
+21,17416,1976,n,y,2,4,n,n,n,n,4,n,n,n,n,n,y,NA
+22,17464,1978,IO,n,NA,1,n,n,n,n,NA,n,n,n,n,n,n,NA
+23,17484,1977,n,y,2,4,n,n,y,n,3,n,n,n,n,y,y,NA
+24,17554,1974,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+25,17668,1979,n,y,3,2,n,n,y,n,3,n,n,y,n,n,y,NA
+26,17736,1975,n,y,3,3,n,n,y,n,4,n,n,n,n,n,y,NA
+27,17784,1978,IO,n,NA,1,n,n,n,n,NA,n,n,n,n,n,n,NA
+28,17850,1978,n,n,4,4,y,n,n,n,4,n,n,n,n,n,n,NA
+29,17926,1975,n,y,3,15,y,y,n,n,4,y,y,y,n,n,y,NA
+30,17947,1975,n,y,3,2,y,n,n,n,4,n,n,n,n,n,n,NA
+31,18171,1978,n,n,2,1,n,n,n,n,4,n,n,n,n,n,y,NA
+32,18281,1973,n,y,4,3,n,n,n,n,4,n,n,n,n,n,n,NA
+33,18351,1980,IO,n,NA,1,n,n,n,n,NA,n,n,n,n,n,n,NA
+34,18378,1980,IO,y,4,3,n,n,y,n,4,y,n,n,n,n,y,NA
+35,18401,1977,n,n,3,2,n,n,n,n,4,y,n,n,n,n,n,NA
+36,18406,1977,n,n,3,2,n,n,n,n,4,y,n,n,n,n,n,NA
+37,18486,1978,n,n,3,2,n,n,n,n,4,y,n,n,n,n,n,Three German treaties in a row with nearly identical language!
+38,18595,1977,n,n,4,6,y,n,y,y,5,y,n,n,n,n,y,NA
+39,18636,1978,y?,y,2,1,n,n,n,n,3,y,n,n,n,n,n,"This treaty is between the US and the USSR, i'm not sure if the USSR counts as multilateral though"
+40,18639,1979,y?,y,2,1,n,n,y,n,3,n,n,n,n,n,y,"""multilateral"" coded as y? for the same reason as above"
+41,18733,1979,IO,n,NA,1,n,n,n,n,NA,n,n,n,n,n,n,NA
+42,18738,1980,IO,y,4,3,n,n,y,n,4,y,n,n,n,n,y,NA
+43,18739,1979,n,n,3,3,y,n,n,n,4,n,n,n,n,n,y,NA
+44,18755,1978,IO,n,NA,1,n,n,n,n,NA,n,n,n,n,n,n,NA
+45,18940,1979,n,y,3,7,n,y,y,y,5,y,y,y,y,y,y,NA
+46,18990,1976,y,n,2,2,n,n,n,n,3,n,n,n,n,n,y,NA
+47,19075,1980,n,n,NA,1,n,n,n,n,NA,n,n,n,n,n,n,NA
+48,19175,1977,n,y,2,3,n,n,n,n,3,n,n,n,n,n,y,What is the difference between the German Democratic Republic and the Federal Republic of Germany?
+49,19282,1979,y,y,3,4,y,n,n,n,3,n,y,y,n,n,y,NA
+50,19356,1979,IO,n,NA,1,n,n,n,n,NA,n,n,n,n,n,n,NA
+51,33000,1996,IO,n,NA,1,n,n,n,n,NA,n,n,n,n,n,n,NA
+52,33364,1979,n,n,2,2,n,n,n,n,4,y,n,y,n,n,y,NA
+53,33400,1992,n,n,NA,1,n,n,n,n,NA,n,n,n,n,n,n,NA
+54,33405,1996,n,y,2,7,n,y,n,n,4,n,y,n,n,n,y,NA
+55,33529,1996,y,n,NA,1,n,n,n,n,NA,n,n,n,n,n,n,NA
+56,34579,1989,y,y,4,43,y,y,y,y,4,y,y,y,y,n,y,NA
+57,39427,1993,N,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Not coded because the treaty was not in English
+58,40324,1947,IO,y,4,86,y,y,y,y,4,y,y,y,y,n,n,"This isn't actually a treaty, it's the ""Charter and Judgement of the Nurnberg Tribunal.  Most of the body of the text isn't treaty but a summary of the trials.  I don't know how effective this ""treaty"" would be for data purposes?"
+59,41032,2003,IO,y,3,25,y,y,y,y,4,y,y,y,y,n,y,NA
+60,41650,1979,n,y,2,21,y,y,y,y,4,n,y,y,y,n,y,NA
+61,43185,2000,n,n,NA,1,n,n,n,n,NA,n,n,n,n,n,n,NA
+62,43272,1993,n,y,3,17,y,n,y,n,4,y,y,n,n,y,y,NA
+63,43452,1986,n,y,2,4,y,n,y,n,3,n,n,n,n,n,n,NA
+64,44848,2007,n,y,2,5,n,y,n,n,4,n,n,y,n,n,y,NA
+65,44960,2007,IO,n,2,2,y,n,n,n,4,n,n,n,n,n,n,"Delegation 1 coded as y? because of this clause: ""members of the family forming part of the household...in the service of NAPMA shall be authorised to engage...""  *CORRECTED TO N*"
+66,44961,2007,IO,n,3,2,y,n,n,n,4,n,y?,n,n,n,n,"Virtually the same language as the prior treaty, slightly more specific in regards to  precision 2"
+67,45080,2000,n,y,2,3,n,n,y,n,3,n,n,n,n,n,y,NA
+68,45106,2007,IO,y,4,12,y,y,n,n,4,n,y,y,n,n,y,NA
+69,45186,1966,n,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Treaty not in English
+70,45218,1991,n,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,treaty not in English
+71,45235,2006,IO,n,2,2,y,n,n,n,2,n,n,n,n,n,y,NA
+72,45360,1990,n,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Not in English
+73,45733,2004,n,n,2,2,n,n,n,n,5,n,n,n,n,n,y,NA
+74,45809,2007,IO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No body text at all, just a title page"
+75,46773,1997,n,y,3,5,y,n,n,n,4,y,n,n,n,n,y,NA
+76,46816,2004,n,n,2,3,n,n,n,n,4,y,n,n,n,n,y,NA
+77,46862,2009,IO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No body text at all, just a title page"
+78,46875,2009,IO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No body text at all, just a title page"
+79,46888,2009,IO,n,3,3,n,n,n,n,5,y,n,n,n,n,n/a,NA
+80,46903,2007,n,y,2,4,n,n,n,n,4,y,n,n,n,n,y,Article 7: The two Parties shall cooperate in the field of Telemedicine.  What the heck is telemedicine?
+81,53398,2015,n,n,2,7,n,n,n,n,4,y,n,n,n,n,y,NA
+82,53484,2008,n,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Not in English
+83,53565,2006,n,y,3,13,y,n,n,n,4,y,n,n,n,n,y,NA
+84,53594,2009,n,y,4,15,y,y,y,y,4,y,y,y,n,n,y,NA
+85,53646,2013,n,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Not in English
+86,53771,2011,n,n,4,8,n,y,n,n,4,y,y,y,y,n,y,NA
+87,54051,2008,n,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,No body text...
+88,54339,2002,n,y,4,16,n,n,n,n,5,y,n,n,n,n,y,NA
+89,54387,2011,IO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,No body text...
+90,54415,2015,y,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Not in English, but one of the parties is the ""Russian Federation,"" I'm not sure if that counts as an IO or multiple bodies, so multilateral is coded as yes?"
+91,54452,2013,n,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Not in English
+92,54457,2015,n,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Not in English
+93,54615,2016,n,n,2,3,n,n,n,n,4,n,n,y,n,n,y,NA
+94,54644,2015,n,n,2,6,n,n,n,n,2,n,n,n,n,n,y,NA
+95,54682,2015,n,y,4,28,y,y,y,y,4,n,y,y,n,y,y,NA
+96,"""Amazon Cooperation""",1978,y,y,3,5,y,n,y,n,4,n,n,y,n,n,y,No treaty # just a title
+97,1870,1949,IO,y,2,15,n,n,y,y,4,n,y,n,y,y,y,NA
+98,1963,1951,y,y,3,12,y,y,y,y,4,y,y,y,y,y,y,NA
+99,2123,1949,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"corrupted filed, only part of title page was able to load after multiple attempts"
+100,2124,1946,y,y,3,5,n,n,y,n,4,y,y,y,y,y,y,NA
+101,2125,1947,IO,y,2,13,n,n,n,n,4,n,n,n,n,y,y,NA
+102,2163,1948,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Not coded, it wouldn't open in the google drive and when i tried to download it my computer said ""incompatiable file.""  I might have to try this one on a different computer"
+103,2624,1952,IO,y,2,8,n,n,y,n,4,n,y,n,y,y,y,NA
+104,2678,1951,IO?,y,3,7,n,n,n,n,5,n,n,n,n,y,n,Treaty applies to NATO countries so I'm not sure if that's IO or y for multilateral
+105,2701,1953,y,y,4,13,4,y,y,y,4,n,y,y,n,n,y,"Sounds like they're building the Death Star: a proton synchrotron for energies above ten gigaelectronvolts(10 10 eV) ; (ii) a synchro-cyclotron capable of accelerating protons up to, approximately, 600 million electron-volts (6x10 8 eV) ;"
+106,2763,1924,y,y,4,8,n,n,n,y,4,y,n,n,n,n,y,NA
+107,2764,1924,y,y,3,11,n,n,n,n,4,n,y,n,n,y,y,2. Neither the carrier nor the ship shall be responsible for loss or damage arising or resulting from: d) Act of God.
+108,2765,1926,y,n,4,10,n,n,n,n,5,n,y,n,n,n,y,NA
+109,2814,1947,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,This treaty is another that I was unable to open
+110,2820,1946,IO,y,2,12,n,n,y,n,3,n,y,n,y,y,y,NA
+111,2840,1910,y,n,3,6,n,n,y,n,3,y,y,y,y,n,y,NA
+112,2907,1952,IO,n,3,8,n,n,y,n,4,n,y,n,y,y,y,NA
+113,2952,1953,y,n,3,7,y,n,n,n,4,n,n,n,n,n,y,"Article 4:1; The application form shall be regarded as formally in order, as regards its size
+and the kind of paper used, if it is made on strong white paper of a size of 29 to 34 cms.
+by 20 to 22 cms."
+114,2953,1954,y,y,2,7,y,n,n,n,4,n,y,n,n,n,y,NA
+115,2961,1925,IO,n,2,16,n,n,n,n,4,n,n,n,n,y,n,NA
+116,2997,1951,y,n,3,6,n,n,n,n,4,n,y,y,y,n,y,NA
+117,3459,2931,IO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Illegible
+118,3500,1954,y,y,3,9,n,n,y,n,5,y,y,y,y,n,y,NA
+119,3663,1951,y,y,3,28,y,y,n,n,4,y,y,n,y,y,y,"""Nothing in this Convention shall prevent a Contracting State, in time of war
+or other grave and exceptional circumstances.""  I wonder what those other grave and exceptional circumstances could be, they sound scary."
+120,3988,1956,y,y,4,22,y,y,y,y,3,y,y,y,y,n,y,NA
+121,3992,1954,y,y,2,18,y,y,n,y,3,y,y,n,n,y,y,NA
+122,4214,1948,IO,y,3,54,y,y,y,y,4,n,y,y,y,n,y,NA
+123,4493,1952,y,y,3,28,n,y,y,y,4,y,y,y,y,n,y,NA
+124,4648,1957,IO,n,2,4,n,n,y,n,3,n,y,n,y,n,y,NA
+125,4704,1857,IO,n,3,7,n,n,y,n,4,n,y,n,y,y,y,NA
+126,4714,1954,y,y,3,10,y,y,y,n,4,y,y,n,y,y,y,NA
+127,4739,1958,IO,n,3,6,n,n,y,y,3,y,y,n,y,y,y,NA
+128,4743,1954,y,n,3,8,y,n,y,n,4,n,y,y,n,n,y,NA
+129,4816,1946,n,n,4,2,n,n,n,n,5,y,y,n,n,n,y,NA
+130,5005,1958,IO,y,2,26,n,y,y,y,3,y,y,n,y,y,y,NA
+131,5266,2013,IO,y,4,24,y,y,y,y,4,y,y,y,y,y,y,NA
+132,5610,1998,y?,y,3,25,y,n,y,n,3,y,y,n,n,n,n,"Multilateral coded as y? because it is called the ""Latin American Caribbean Forestry Commission"" so I'm not sure if it's yes or an IO"
+133,5949,1959,IO,n,2,4,n,n,y,n,4,n,y,n,n,n,y,NA
+134,6619,1951,IO,y,3,10,y,n,n,y,4,n,n,y,n,n,y,NA
+135,6466,1958,y,y,2,2,n,y,n,n,3,n,y,n,n,n,n,NA
+136,6543,1960,y,y,2,14,n,y,y,y,3,y,y,y,n,y,y,NA
+137,6555,1953,IO,y,4,20,n,y,y,y,4,y,y,n,n,y,y,NA
+138,6862,1961,y,y,3,9,y,y,y,y,4,y,n,n,n,n,y,NA
+139,7238,1962,IO,y,3,9,n,n,n,n,4,y,y,n,n,n,y,NA
+140,7302,1958,y,y,3,5,n,n,n,n,3,y,n,n,n,y,n,NA
+141,7384,1957,y,y,3,6,n,y,n,n,3,y,y,n,n,y,y,NA
+142,7401,1962,y,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Not in English, but the title reads ""Convention for the establishment of a European Organi sation for the Development and Construction of ""Space Vehicle Launchers"""
+143,7411,1955,y,n,2,7,n,n,n,n,3,y,n,n,n,y,y,NA
+144,7477,1958,y,y,2,10,y,n,n,n,4,y,y,n,n,n,n,NA
+145,7659,1961,y,y,3,18,y,n,y,n,3,y,y,y,n,y,y,NA
+146,7825,1962,y,n,2,9,n,n,n,n,4,y,y,y,n,n,y,NA
+147,8008,1957,y,y,3,5,n,n,n,n,4,y,n,n,n,y,y,NA
+148,8164,1958,y,y,2,8,n,y,y,n,4,y,y,y,n,y,n,NA
+149,8640,1963,y,y,2,3,n,y,n,n,3,n,y,n,n,n,n,NA
+150,8644,1962,y,y,3,5,n,n,y,y,4,n,n,n,n,y,y,NA
+151,8768,1949,IO,n,2,8,n,n,y,n,4,t,y,n,n,y,y,NA
+152,8769,1966,y,n,2,4,n,n,n,n,4,n,n,n,n,n,y,NA
+153,8836,1965,IO,n,2,8,n,n,n,n,4,y,n,n,n,n,y,NA
+154,8844,1964,IO,n,3,15,y,y,n,n,4,n,y,y,n,n,y,NA
+155,8904,1965,y,y,4,76,y,y,y,y,3,y,y,y,y,n,y,NA
+156,n/a,1994,IO,y,2,30,y,y,y,n,3,y,y,y,n,n,y,"The treaty number wasn't listed, ""United Nations Convention to Combat
+Desertification in those Countries Experiencing
+Serious Drought and/or Desertification, Particularly
+in Africa. Paris, 14 October 1994"""
+157,8638,1963,y,y,3,32,y,n,y,n,4,y,y,n,n,y,n,NA
+158,9464,1966,y,y,3,14,y,y,y,y,NA,y,y,y,y,y,y,NA
+159,14668,1966,y,y,2,16,y,n,y,y,3,y,y,y,y,y,y,Anyone sentenced to death shall have the right to seek pardon or commuta
+160,14956,1971,y,y,3,22,y,y,y,y,4,y,y,y,y,y,y,"tion of the sentence. Amnesty, pardon or commutation of the sentence of death may"
+161,19184,1979,y,y,4,31,y,y,y,y,4,y,n,y,n,n,y,be granted in all cases.
+162,20378,1979,y,y,2,11,n,y,y,n,4,y,y,y,y,y,n,CONVENTION 1 ON THE ELIMINATION OF ALL FORMS OF DIS-
+163,23002,1979,y,y,3,7,n,y,2,n,3,n,n,n,n,n,y,"""Article 1. 1. The provisions of this Agreement relating to the moon shall also apply
+to other celestial bodies within the solar system, other than the earth, except in so far as
+specific legal norms enter into force with respect to any of these celestial bodies""....In the event of an emergency involving a threat to human life, States Parties may
+use the equipment, vehicles, installations, facilities or supplies of other States Parties on
+the moon. Prompt notification of such use shall be made to the Secretary-General of the
+United Nations or the State Party concerned.""...ALIENS?"
+164,26164,1985,y,y,2,11,y,y,y,n,4,y,y,y,y,n,y,NA
+165,26369,1987,y,y,4,11,y,n,y,n,3,n,n,n,n,n,y,NA
+166,30670,1975,y,y,3,8,y,y,n,n,4,y,n,n,n,y,y,NA
+167,31363,1982,y,y,4,127,y,y,y,y,4,y,y,y,n,y,y,NA
+168,7525,1962,y,n,2,4,n,y,n,n,4,y,y,n,n,n,y,NA
+169,8303,1965,y,y,3,35,y,y,y,y,4,n,y,y,y,y,y,NA
+170,21052,1982,y,y,3,27,y,y,y,y,4,n,y,y,y,y,y,NA
+171,11654,1971,y,y,2,6,n,n,n,n,3,n,y,y,n,n,y,NA
+172,10232,1969,y,y,3,45,y,y,y,y,4,y,n,y,y,y,y,NA
+173,33836,1996,y,y,3,16,n,y,y,n,4,n,y,y,y,n,y,NA
+174,24841,1984,y,y,3,10,n,y,y,y,4,y,y,y,y,y,y,NA
+175,23432,1979,y,y,4,13,y,y,y,y,4,y,y,y,y,n,y,NA
+176,12430,1971,y,n,3,4,n,n,y,y,4,y,y,n,y,n,y,NA
+177,37770,1998,y,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Not in English
+178,14351,1966,y,y,2,9,n,n,y,n,3,y,y,n,y,n,n,NA
+179,9733,1968,y,y,2,7,n,n,y,n,3,y,y,y,n,n,y,NA
+180,2631,1950,y,y,2,7,n,y,y,n,4,n,y,y,y,y,y,NA
+181,446,1949,y,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+182,9250,1968,n,y,3,5,n,y,y,n,5,n,y,y,n,y,n,NA
+183,9258,1967,y,y,4,5,n,y,y,y,3,n,y,n,y,n,n,NA
+184,9295,1968,n,n,1,1,n,n,n,n,5,n,n,n,n,n,n,NA
+185,9321,1968,n,y,3,7,n,y,n,n,4,n,IO,n,n,n,n,NA
+186,9391,1967,n,y,2,3,n,n,n,n,5,n,n,n,n,n,n,NA
+187,9397,1966,n,y,4,18,n,y,y,y,5,y,n,n,n,n,n,NA
+188,9481,1968,n,y,3,5,n,y,y,y,4,y,n,n,n,n,y,NA
+189,9584,1965,n,y,4,2,n,n,n,y,3,n,y,n,n,n,n,NA
+190,9675,1969,n,y,4,5,n,n,n,n,3,n,n,n,n,n,n,NA
+191,9676,1964,n,y,4,7,n,y,y,n,5,n,y,n,y,n,n,NA
+192,9740,1969,y,y,4,6,n,n,n,n,3,n,IO,n,y,n,y,NA
+193,9755,1967,n,y,2,2,n,n,n,n,2,n,y,n,y,n,y,NA
+194,9821,1968,y,y,3,1,n,n,n,y,5,n,n,n,n,n,y,NA
+195,9958,1965,n,y,4,7,y,y,y,y,4,y,y,n,y,n,y,NA
+196,10030,1967,y,y,4,23,y,n,y,y,5,y,IO,n,y,n,y,NA
+197,10201,1969,y,y,4,7,n,y,y,y,5,y,n,y,n,n,y,NA
+198,10265,1969,n,y,3,1,n,n,n,n,3,n,n,n,n,n,n,NA
+199,10303,1968,n,y,4,7,n,n,y,y,3,y,n,n,n,y,y,NA
+200,10336,1969,n,y,2,13,n,n,y,y,2,n,n,n,n,y,y,NA
+201,10405,1969,n,y,2,1,n,n,n,n,3,n,n,n,n,n,n,NA
+202,10520,1969,y,y,4,18,n,y,y,y,3,n,y,y,y,y,y,NA
+203,10553,1965,n,y,3,4,y,y,y,n,3,n,n,n,n,n,y,NA
+204,10565,1965,n,y,4,3,n,n,y,y,4,n,y,n,n,n,y,NA
+205,10683,1970,n,y,4,8,y,n,y,y,4,n,y,y,n,n,y,NA
+206,10707,1969,n,y,4,6,n,n,y,y,5,y,n,n,n,n,y,NA
+207,10722,1964,n,y,3,7,n,y,y,y,4,n,y,n,n,n,y,NA
+208,10861,1970,n,y,3,8,y,n,y,y,5,n,y,y,y,n,y,NA
+209,10901,1969,n,y,4,15,y,y,n,y,4,n,y,y,y,n,n,NA
+210,11067,1971,n,y,3,3,n,n,y,n,5,y,n,n,n,n,y,NA
+211,11263,1971,n,y,2,2,n,n,n,y,3,y,n,n,n,n,n,NA
+212,11342,1971,n,y,3,4,y,n,n,y,4,y,n,n,n,n,y,NA
+213,11377,1971,n,y,4,4,y,y,n,y,4,n,n,n,n,n,y,NA
+214,11548,1961,n,y,3,3,y,y,n,y,4,y,y,n,y,n,n,NA
+215,11607,1967,n,y,4,3,n,n,n,n,2,n,n,y,n,n,y,NA
+216,11614,1970,n,y,4,9,y,n,y,y,4,y,y,n,y,n,y,NA
+217,11650,1970,y,y,4,9,y,y,y,y,4,n,n,n,n,n,y,NA
+218,11781,1971,n,y,1,1,n,n,y,y,3,n,n,n,n,n,n,NA
+219,11849,1967,y,y,3,12,n,n,y,y,3,n,y,n,y,n,y,NA
+220,12024,1972,n,y,4,5,n,n,n,y,5,n,y,n,n,n,n,NA
+221,12031,1968,y,y,3,6,y,n,y,y,4,y,y,n,n,n,y,NA
+222,12048,1971,n,y,2,2,n,n,n,y,3,n,n,n,n,n,y,NA
+223,12172,1972,y,y,3,2,n,n,y,n,4,n,y,y,y,n,n,NA
+224,12175,1970,n,y,4,3,n,n,n,n,3,n,y,n,n,n,y,NA
+225,12176,1972,n,n,3,2,n,n,n,y,5,n,y,n,n,n,y,s; (/) Corpses in coffins or ashes in urns;
+226,12202,1972,n,y,2,1,n,n,n,n,5,n,n,n,n,n,n,NA
+227,12226,1972,n,n,4,2,y,n,n,y,5,n,n,n,n,n,n,NA
+228,12292,1972,n,y,3,10,y,n,y,y,4,y,n,n,n,n,y,NA
+229,12307,1972,n,y,3,7,y,n,y,y,3,n,y,n,y,n,y,NA
+230,12507,1971,n,y,3,6,n,y,y,y,3,y,y,y,n,n,y,NA
+231,12524,1968,n,y,2,3,n,y,y,y,3,n,y,y,y,n,y,NA
+232,12615,1972,n,y,3,10,y,n,n,n,4,n,n,n,n,n,y,NA
+233,27627,1988,y,y,4,45,y,y,y,y,5,y,y,n,y,n,y,about drug trafficking
+234,27717,1988,n,n,1,1,n,n,n,n,1,n,n,n,n,n,n,nothing
+235,28022,2001,y,y,3,7,y,n,y,y,3,n,y,y,y,n,y,NA
+236,29376,1992,n,n,1,1,n,n,n,n,1,n,n,n,n,n,n,NA
+237,29148,1992,n,y,4,14,n,y,y,y,4,n,n,n,n,n,y,NA
+238,29463,1992,y,n,1,1,y,n,n,y,3,n,n,n,n,n,n,NA
+239,29516,1989,n,y,2,4,n,n,n,y,3,n,n,n,n,n,n,NA
+240,29536,1989,n,y,2,2,n,n,y,y,3,n,n,n,n,n,n,NA
+241,29536,1989,y,n,1,1,n,n,n,n,5,n,n,n,n,n,n,NA
+242,29658,1991,n,y,2,3,n,n,y,y,3,n,n,n,n,n,n,NA
+243,29744,1992,n,n,1,1,n,n,n,n,1,n,n,n,n,n,n,NA
+244,30093,1983,n,y,2,2,n,n,n,n,3,n,n,n,n,n,n,NA
+245,30108,1993,n,n,1,1,n,n,n,n,1,n,n,n,n,n,n,NA
+246,30198,1993,n,n,1,1,n,n,n,n,1,n,n,n,n,n,n,NA
+247,30242,1988,n,n,3,11,n,n,y,y,3,y,y,y,y,n,y,NA
+248,30304,1982,n,y,4,4,y,n,y,y,5,n,y,n,y,n,y,NA
+249,30308,1982,n,y,3,5,y,y,y,y,3,n,y,n,y,y,y,NA
+250,30322,1993,n,y,4,2,n,n,y,y,4,n,y,y,y,n,y,NA
+251,30325,1989,n,y,4,40,n,n,y,y,4,y,y,y,y,n,y,NA
+252,30332,1992,n,y,3,10,n,n,y,y,3,y,n,n,y,n,n,NA
+253,30349,1992,n,y,3,4,n,n,n,y,3,n,n,y,y,n,y,NA
+254,30427,1991,n,n,1,1,n,n,n,n,1,n,n,n,n,n,n,NA
+255,30453,1993,n,n,1,1,n,n,n,n,1,n,n,n,n,n,n,NA
+256,30458,1993,n,y,3,4,n,y,y,y,3,n,y,n,y,n,y,NA
+257,30527,1993,n,n,1,1,n,n,n,n,1,n,n,n,n,n,n,NA
+258,30677,1989,n,y,3,7,n,n,y,y,5,y,n,n,n,n,y,NA
+259,30714,1993,n,y,3,3,n,n,n,n,3,n,y,n,y,n,y,NA
+260,30769,1994,n,y,3,10,n,y,y,y,5,y,IO,y,y,n,y,NA
+261,30780,1992,n,n,1,1,n,n,n,n,4,n,n,n,n,n,n,NA
+262,50151,2012,n,n,1,1,n,n,n,n,1,n,n,n,n,n,n,NA
+263,50274,2012,n,n,1,1,n,n,n,n,1,n,n,n,n,n,n,NA
+264,50279,2012,n,n,1,1,n,n,n,n,1,n,n,n,n,n,n,NA
+265,50333,1997,n,n,2,1,n,n,n,n,1,n,n,n,n,n,n,NA
+266,12292,1972,N,Y,3,11,Y,Y,Y,Y,4,N,N,Y,N,Y,Y,Obligation 3 - ok to count monetary compensation?
+267,12307,1972,IO,Y,3,7,Y,N,Y,N,4,N,Y,N,Y,N,Y,NA
+268,12507,1971,N,Y,3,7,N,Y,N,N,4,Y,N,N,N,Y,Y,NA
+269,12524,1968,IO,Y,3,4,N,Y,Y,N,3,N,Y,Y,Y,N,Y,NA
+270,12615,1972,IO*,Y,3,10,Y,N,Y,N,4,N,N,N,N,N,Y,NA
+271,12626,1971,N,Y,3,2,Y,Y,N,N,4,N,N,N,N,N,N,NA
+272,12646,1971,N,Y,3,12,N,N,N,N,4,Y,N,N,N,N,Y,NA
+273,12812,1972,N,Y,3,12,N,N,N,N,4,N,N,N,N,N,Y,NA
+274,12831,1972,N,Y,3,3,N,N,N,N,4,N,N,N,N,N,N,NA
+275,13064,1972,N,Y,2,4,N,Y,N,N,2,Y,Y,Y,N,Y,Y,NA
+276,13100,1973,N,Y,3,5,N,N,N,N,3,N,N,N,N,N,Y,NA
+277,13107,1973,N,Y,3,6,Y,Y,N,N,3,N,N,N,N,Y,Y,NA
+278,13175,1973,N,Y,2,2,N,N,N,N,2,N,N,Y,N,N,Y,NA
+279,13219,1973,N,Y,3,2,N,N,N,N,3,N,N,N,N,N,N,NA
+280,13352,1973,N,Y,3,15,N,N,Y,N,4,N,N,N,N,N,N,NA
+281,13402,1971,N,Y,3,3,Y,N,N,N,3,N,N,N,N,N,Y,NA
+282,13471,1973,N,Y,2,2,N,N,N,N,2,N,N,N,N,N,N,NA
+283,13491,1974,IO,Y,3,11,N,Y,Y,N,4,N,Y,N,Y,N,Y,NA
+284,13504,1972,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+285,13558,1973,N,Y,2,2,N,N,N,N,3,N,N,N,N,N,N,NA
+286,13593,1973,N,Y,2,2,N,N,N,N,3,N,N,N,N,N,N,NA
+287,13766,1974,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+288,13774,1974,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+289,13956,1974,IO,Y,4,10,Y,N,Y,N,4,Y,Y,N,Y,N,Y,NA
+290,14006,1975,IO,Y,3,10,N,Y,Y,N,4,N,Y,N,Y,N,Y,NA
+291,14105,1974,N,Y,2,3,N,N,Y,N,3,N,N,N,N,N,N,NA
+292,14716,1975,N,Y,3,5,Y,Y,Y,N,4,Y,N,Y,N,N,N,NA
+293,14451,1975,N,Y,2,2,N,N,N,N,2,N,N,N,N,N,Y,NA
+294,14557,1971,IO,Y,3,4,N,Y,Y,N,4,N,Y,N,Y,N,Y,NA
+295,14607,1974,N,Y,3,6,Y,Y,N,N,4,N,Y,Y,N,Y,Y,NA
+296,14629,1974,N,Y,2,3,N,N,N,N,2,N,N,N,N,N,Y,NA
+297,14630,1975,N,Y,2,8,N,N,Y,N,2,N,N,N,N,N,N,NA
+298,14650,1975,N,Y,3,4,Y,Y,Y,N,3,N,Y*,Y*,N,N,Y,"The treaty mentions a ""textiles surveillance body"". Unsure if this is something the treaty created and if it counts as a non-state actor"
+299,14666,1975,N,Y,2,2,N,N,N,N,2,N,N,Y,N,N,Y,NA
+300,14668,1966,Y,Y,3,15,Y,Y,Y,N,3,Y?,Y,Y,Y,N,N,NA
+301,14765,1975,N,Y,3,5,Y,N,N,N,4,N,N,N,N,N,N,NA
+302,14895,1975,N,Y,2,2,N,N,N,N,3,N,N,N,N,N,N,"Article 7 would not count as an escape clause, correct? I'm also hesistant to list that as ""flexible"""
+303,15039,1974,N,Y,2,3,N,N,N,N,2,N,N,N,N,N,Y,NA
+304,15110,1975,N,Y,2,3,Y,N,N,N,2,N,Y,Y,Y,N,Y,"Would a committee created between two governments that is in charge of monitoring count as ""yes"" for delegations 1 & 2?"
+305,15238,1975,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+306,15336,1976,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+307,15509,1973,N,Y,2,2,Y,N,Y?,N,3,N,N,N,Y,N,Y,NA
+308,15582,1976,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+309,15604,1977,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+310,15735,1972,N,Y,3,6,N,N,N,N,3,Y,N,N,N,N,Y,NA
+311,15746,1976,N,Y,2,2,N,N,Y,N,3,N,N,Y,N,N,Y,NA
+312,15832,1973,IO,Y,2,2,Y,N,Y,N,3,N,N,N,N,Y?,N,"Modifications to the agreement is a form of flexibility, right?"
+313,15957,1977,N,Y,2,3,N,N,N,N,2,N,N,N,N,N,Y,NA
+314,15990,1976,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+315,16085,1976,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+316,16156,1974,N,Y,3,2,N,N,Y,N,2,N,N,Y,N,N,Y,NA
+317,30714,1993,N,Y,3,4,N,N,N,N,3,N,N,N,N,N,N,NA
+318,30769,1994,IO,Y,3,11,N,Y,Y,N,4,Y,Y,Y,Y,N,Y,"Government granting immunity and securing rights count as ""yes""?"
+319,30780,1992,N,Y,1,1,N,N,N,N,2,N,N,N,N,N,N,NA
+320,30886,1994,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+321,31010,1982,N,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+322,31041,1994,N,Y,2,3,N,N,Y,N,2,N,N,Y,N,N,Y,"Commissions that are created between the two countries would not count as ""non-state actors"", right?"
+323,31069,1991,N,Y,3,9,Y,Y,N,N,3,N,Y,Y,N,Y,Y,NA
+324,31113,1994,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+325,31181,1994,N,Y,2,3,N,Y,Y,N,2,N,N,Y,N,N,Y,NA
+326,31223,1990,N,Y,4,9,N,Y?,Y,N,4,Y,N,N,N,Y,Y,Does having parties resolve their conflicts through diplomatic channels count as yes for obligation 1?
+327,31243,1993,N,Y,1,1,N,N,N,N,2,N,N,N,N,N,N,NA
+328,31256,1993,N,Y,3,9,Y,Y,Y,N,4,N,Y,Y,N,Y,Y,NA
+329,31376,1992,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+330,31395,1994,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+331,31419,1991,N,Y,2,3,Y,N,N,N,3,N,N,N,N,Y,N,NA
+332,31528,1991,N,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+333,31780,1991,N,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+334,31799,1992,N,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+335,31818,1992,N,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+336,31861,1994,N,Y,4,10,N,N,N,N,4,Y,N,N,N,Y,N,NA
+337,32005,1993,IO,Y,3,?,Y,Y,Y,Y,4,Y,Y,Y,Y,Y,N,How do I count this treaty? Protocols + random places with articles and numbers
+338,32462,1995,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+339,32549,1992,N,Y,2,3,N,N,Y,N,3,N,N,Y,N,N,Y,NA
+340,32670,1992,N,Y,2,7,N,N,N,N,3,N,N,Y,N,N,Y,NA
+341,32922,1995,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+342,32930,1995,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+343,32990,1995,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+344,33000,1996,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+345,33364,1979,N,Y,2,2,N,N,N,N,2,N,Y,Y,N,N,Y,Joing Commission (Delegation 1) a non-state actor?
+346,33400,1992,N,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+347,51732,2005,N,Y,3,10,N,Y,Y,N,4,N,N,Y,N,N,Y,NA
+348,51806,2006,N,Y,3,35,Y,Y,Y,N,4,N,N,Y,N,N,Y,NA
+349,51847,2011,N,Y,2,10,N,Y,N,N,3,N,N,N,N,N,Y,NA
+350,51875,2007,N,Y,2,3,N,N,Y,N,2,N,N,Y,N,N,Y,Does providing visas count as domestic legislation for Obligation 5?
+351,51960,2013,N,Y,2,2,N,N,N,N,2,N,N,Y,N,N,Y,NA
+352,51966,2014,N,Y,1,2,N,Y,N,N,2,N,N,N,N,N,N,NA
+353,52241,1994,IO,Y,2,3,N,N,N,N,2,N,N,N,N,N,N,NA
+354,52251,2006,N,Y,2,2,N,N,N,N,2,N,N,Y,N,N,Y,NA
+355,52345,1991,N,Y,3,15,Y,Y,N,Y,3,N,Y,Y,N,Y,Y,NA
+356,52458,2014,N,Y,2,8,N,Y,N,N,3,N,N,N,N,N,Y,NA
+357,52637,1971,N,Y,2,6,N,N,N,N,3,Y,N,N,N,N,Y,NA
+358,52653,2000,N,Y,2,2,N,Y,N,N,2,N,N,N,N,N,Y,NA
+359,52801,2012,N,Y,3,18,N,Y,Y,N,4,Y,Y,Y,Y,Y,Y,NA
+360,53209,1994,N,Y,2,5,N,N,N,N,3,N,N,Y,N,N,Y,NA
+361,53248,2005,N,Y,3,16,Y,Y,Y,N,4,N,Y,Y,Y,Y,Y,NA
+362,53307,2008,N,Y,2,5,N,Y,N,N,2,N,N,Y,N,Y,Y,NA
+363,53330,2011,N,Y,3,11,N,Y,N,N,3,N,N,N,N,N,Y,NA
+364,53339,2000,N,Y,2,1,Y,N,N,N,2,N,N,N,N,N,Y,NA
+365,53398,2015,N,Y,2,7,N,Y,N,N,2,Y,N,N,N,N,Y,Article 5 for Obligation 5? Flexibility...?
+366,53484,2008,N,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Treaty in German and French only....
+367,53565,2006,N,Y,3,14,Y,Y,N,N,4,Y,N,N,N,N,Y,NA
+368,23187,1982,Y,Y,2,4,N,N,N,N,2,N,N,N,N,N,Y,NA
+369,23225,1984,Y,Y,3,33,Y,Y,Y,N,4,N,Y,Y,Y,Y,Y,NA
+370,23432,1979,Y,Y,3,22,Y,Y,Y,N,3,N,Y,Y,N,Y,Y,NA
+371,23623,1961,Y,Y,2,10,N,N,N,N,3,N,N,N,N,N,Y,NA
+372,25571,1986,Y,Y,3,10,N,N,Y,N,3,N,N,Y,N,N,Y,NA
+373,26059,1987,Y,Y,3,11,N,N,Y,N,3,N,N,Y,N,N,Y,NA
+374,23645,1982,Y,Y,2,9,N,N,Y,N,3,N,Y,N,Y,Y,Y,NA
+375,24377,1954,Y,Y,2,7,N,N,N,N,3,N,N,N,N,Y,Y,NA
+376,24378,1954,Y,Y,2,5,N,N,N,N,3,N,N,N,N,Y,Y,NA
+377,27296,1985,Y,Y,2,7,Y,N,Y,N,3,Y,Y,Y,N,N,Y,NA
+378,24591,1986,Y,Y,3,45,Y,Y,Y,N,4,Y,Y,Y,Y,N,Y,NA
+379,24635,1976,Y,Y,2,20,Y,N,N,N,3,N,N,Y,N,Y,Y,NA
+380,29467,1992,Y,Y,2,23,Y,N,Y,N,4,N,Y,Y,N,Y,Y,NA
+381,24651,1994,Y,Y,3,18,Y,Y,Y,N,3,Y,N,Y,N,Y,Y,NA
+382,32022,1995,Y,Y,3,42,Y,Y,Y,N,4,N,Y,Y,Y,Y,Y,NA
+383,30673,1983,Y,Y,2,15,Y,Y,Y,N,2,N,N,Y,N,Y,Y,NA
+384,32888,1993,Y,N,1,1,N,N,N,N,2,N,N,N,N,N,N,NA
+385,30822,1998,Y,Y,2,18,Y,N,Y,N,3,Y,Y,Y,N,N,Y,NA
+386,28553,1983,Y,Y,1,7,N,N,N,N,2,N,N,Y,N,N,Y,NA
+387,26691,NA,Y,NA,NA,NA,Y,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Treaty pages copied on top of one another - hard to distinguish
+388,48426,2010,N,N,1,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+389,48341,1998,N,N,1,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+390,48207,2009,N,Y,4,115,N,Y,Y,Y,4,Y,Y,Y,Y,Y,Y,"The treaty references annexes repeatedly, though none are included in this file. On another note, Article 16.9 outlines the creation of a tribunal of non-party nationals for dispute resolution. I marked this as a Yes for delegation 1. Obligation 3 is a yes because the created tribunal for resolving disputes is allowed to award recompense to parties that have been wronged in violation of the treaty at the expense of the party who violates said treaty."
+391,48051,2009,N,Y,2,5,N,N,Y,N,4,N,N,Y,N,N,Y,NA
+392,48025,2005,IO,N,1,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+393,48023,2005,IO,N,1,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+394,48008,2010,N,Y,3,4,N,N,N,N,3,N,N,N,N,Y,Y,NA
+395,47955,2006,Y,Y,3,16,Y,N,Y,N,4,N,N,Y,N,Y,Y,NA
+396,47946,2005,Y,Y,2,8,Y,N,Y,N,2,Y,Y,Y,Y,N,Y,NA
+397,47802,2005,IO,N,1,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+398,47799,2005,IO,N,1,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+399,47784,2009,N,Y,4,3,N,N,N,N,5,N,N,N,N,N,N,NA
+400,47778,2005,IO,N,1,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+401,47709,1998,N,Y,4,16,N,N,N,N,4,Y,Y,N,N,Y,Y,NA
+402,47647,2010,N,N,1,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+403,47646,2009,N,N,1,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+404,47421,2001,N,Y,3,3,N,N,N,N,4,N,N,N,N,Y,Y,NA
+405,47290,1998,N,Y,3,7,N,N,N,N,4,Y,N,N,N,Y,Y,NA
+406,47119,1998,N,N,1,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+407,47118,2000,N,Y,2,4,N,N,N,N,2,N,N,N,N,Y,N,NA
+408,47047,2007,N,Y,3,22,N,N,Y,N,3,Y,N,Y,N,Y,Y,NA
+409,47003,2005,N,Y,2,6,Y,Y,Y,N,4,N,N,Y,N,N,Y,NA
+410,46982,1998,N,N,1,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+411,46969,2001,N,Y,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+412,46903,2007,N,Y,3,4,N,N,N,N,5,NA,N,N,N,N,Y,NA
+413,46888,2009,IO,Y,2,4,N,N,N,N,5,Y,Y,N,N,Y,N,NA
+414,46875,2009,IO,N,1,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+415,46862,2009,IO,N,1,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+416,46816,2004,N,Y,3,3,N,N,Y,N,3,N,N,N,N,Y,Y,NA
+417,46773,1997,N,Y,3,5,Y,N,Y?,N,4,N,N,N,N,Y,Y,"Obligation 2 is marked as a Y, because the agreement stipulates that data on the implementation of the treaty will be supplied to either part upon request."
+418,25118,1986,N,Y,3,2,N,N,Y,Y,4,4,N,N,N,Y,N,NA
+419,25095,1986,IO,N,1,2,N,N,N,N,NA,N,N,N,N,N,N,NA
+420,25028,1984,IO,N,1,2,N,N,N,N,NA,N,N,N,N,N,N,NA
+421,24992,1985,Y,Y,2,3,Y,N,Y,N,3,N,Y,Y,Y,N,N,NA
+422,24880,1979,N,Y,2,5,N,Y,N,N,4,N,Y,N,N,N,Y,NA
+423,24428,1985,N,Y,3,2,N,N,N,N,4,N,N,N,N,Y,N,NA
+424,24317,1986,N,Y,2,5,N,N,N,N,2,N,N,Y,N,Y,Y,NA
+425,24298,1984,IO,N,1,2,N,N,N,N,NA,N,N,N,N,N,N,NA
+426,24166,1983,IO,N,1,2,N,N,N,N,NA,N,N,N,N,N,N,NA
+427,24164,1983,IO,N,1,2,N,N,N,N,NA,N,N,N,N,N,N,NA
+428,24081,1984,IO,Y,2,1,N,N,N,N,4,N,N,N,N,N,Y,NA
+429,23960,1984,IO,N,1,2,N,N,N,N,NA,N,N,N,N,N,N,NA
+430,23839,1983,IO,N,1,2,N,N,N,N,NA,N,N,N,N,N,N,NA
+431,23805,1983,IO,N,1,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+432,23751,1985,N,Y,3,6,Y,N,Y,Y,2,N,Y,N,Y,Y,NA,NA
+433,23691,1980,N,Y,4,4,N,N,N,N,4,N,N,N,N,Y,N,NA
+434,23632,1978,N,N,1,2,N,N,N,N,NA,N,N,N,N,N,N,NA
+435,23603,1983,N,Y,3,5,N,Y,N,N,4,N,Y,Y,N,Y,Y,NA
+436,23551,1984,N,Y,3,2,N,N,N,N,4,N,N,N,N,Y,N,NA
+437,23535,1984,N,Y,3,2,N,N,N,N,4,N,N,N,N,Y,N,NA
+438,23527,1984,N,Y,3,2,N,N,N,N,4,N,N,N,N,Y,N,NA
+439,23449,1984,N,Y,2,3,N,N,N,N,3,N,N,Y,N,Y,Y,NA
+440,23448,1984,N,Y,4,3,N,N,Y,Y,4,N,N,N,N,N,N,NA
+441,23443,1982,N,Y,3,5,N,Y,N,N,4,N,N,Y,N,Y,Y,NA
+442,23348,1979,N,Y,2,3,N,N,N,N,4,N,N,Y,N,N,Y,NA
+443,23274,1985,IO,N,1,2,N,N,N,N,NA,N,N,N,N,N,N,NA
+444,23270,1984,N,Y,3,3,N,N,N,N,5,N,N,N,N,N,N,NA
+445,23225,1984,Y,Y,3,16,N,Y,N,Y,4,N,N,Y,Y,N,Y,NA
+446,23208,1983,N,Y,2,3,N,N,N,N,2,N,N,N,N,Y,Y,NA
+447,23207,1983,N,Y,3,2,N,N,N,N,4,N,N,Y,N,Y,Y,NA
+448,23199,1981,N,Y,4,18,N,N,N,N,4,N,N,N,N,Y,Y,NA
+449,23136,1983,N,Y,3,2,Y,N,N,N,5,N,N,N,N,Y,Y,NA
+450,23009,1979,N,Y,3,5,N,Y,Y,N,4,N,N,Y,N,Y,Y,"Compliance monitoring is a maybe, the Joint Commission established by the parties is in charge of overseeing implementation of this treaty."
+451,23007,1979,N,Y,4,2,N,N,N,N,3,N,N,N,N,Y,Y,NA
+452,22977,1983,N,Y,3,2,N,N,N,N,4,N,N,N,N,Y,N,NA
+453,22903,1984,IO,N,1,2,N,N,N,N,NA,N,N,N,N,N,N,NA
+454,22682,1983,N,Y,2,3,N,N,Y,N,4,N,Y,N,Y,N,N,"Interesting note: this treaty references the term ""man month"", which I looked up, it means the amount of work one person can accomplish in a month, it isn't an amount of time."
+455,22808,1979,N,Y,3,2,N,N,Y,N,2,N,N,N,N,Y,Y,NA
+456,22766,1983,IO,N,1,2,N,N,N,N,NA,N,N,N,N,N,N,NA
+457,22750,1982,IO,N,1,2,N,N,N,N,NA,N,N,N,N,N,N,NA
+458,22719,1984,IO,Y,3,10,N,Y,Y,N,NA,NA,NA,NA,NA,NA,NA,NA
+459,22631,1982,N,Y,3,2,N,N,N,N,4,N,N,N,N,Y,N,NA
+460,22556,1980,IO,N,1,2,N,N,N,N,NA,N,N,N,N,N,N,NA
+461,22489,1981,N,Y,2,3,Y,N,N,N,2,N,N,N,N,Y,Y,NA
+462,22377,1958,N,Y,3,3,N,N,N,N,3,N,N,Y,N,Y,Y,NA
+463,22300,1982,NA,Y,4,7,N,Y,Y,Y,4,N,Y,Y,Y,Y,Y,NA
+464,22215,1982,NA,N,1,2,N,N,N,N,NA,N,N,N,N,N,N,NA
+465,22139,1982,NA,N,1,2,N,N,N,N,NA,N,N,N,N,N,N,NA
+466,22008,1981,N,Y,3,2,N,N,N,N,4,N,N,N,N,Y,N,NA
+467,21986,1980,N,Y,4,2,N,N,N,N,4,N,N,N,N,Y,Y,NA
+468,21135,1979,Y,Y,3,10,Y,Y,N,N,4,N,Y,Y,N,Y,Y,NA
+469,20313,1980,Y,Y,4,54,Y,Y,Y,Y,3,N,Y,Y,Y,Y,Y,NA
+470,19184,1980,Y,Y,4,58,Y,Y,Y,Y,4,N,Y,Y,Y,Y,Y,NA
+471,18818,1979,Y,Y,4,16,Y,Y,Y,N,4,Y,Y,Y,Y,Y,Y,NA
+472,17955,1969,Y,Y,4,35,N,N,Y,Y?,4,Y,Y,Y,Y,Y,Y,"If violation of human rights occurs, the court will rule that the offending state must repay the injured party for damage. I coded this as a yes for incentive for compliance."
+473,17864,1970,Y,Y,4,16,N,N,N,N,4,N,Y,N,N,Y,Y,NA
+474,17146,1971,Y,Y,3,28,N,N,N,N,4,Y,N,Y,N,Y,Y,NA
+475,17104,1965,Y,Y,4,6,N,N,N,N,4,N,N,N,N,Y,Y,NA
+476,16710,1973,Y,Y,3,9,N,N,Y,Y,4,N,N,Y,N,Y,Y,NA
+477,16550,1973,Y,Y,4,5,N,N,Y,N,4,N,Y,N,Y,Y,Y,NA
+478,16064,1975,Y,Y,3,6,N,N,N,N,4,Y,Y,N,N,N,Y,NA
+479,16041,1976,Y,Y,4,NA,N,Y,Y,Y,4,N,Y,Y,N,N,Y,NA
+480,15147,1974,Y,Y,4,16,Y,Y,Y,Y,4,N,N,Y,N,Y,Y,NA
+481,14696,1975,Y,Y,3,14,N,N,Y,Y,3,N,Y,Y,Y,Y,Y,NA
+482,14668,1966,Y,Y,2,25,N,N,Y,N,4,Y,N,Y,N,Y,N,NA
+483,14604,1973,Y,Y,3,16,N,Y,Y,N,3,Y?,Y,Y,N,Y,Y,"I said yes for domestic legislation, because the treaty says that participating countries will bring their national legislation and administrative procedures into full accord with the common standards set by the treaty"
+484,14403,1970,Y,Y,3,17,Y,N,Y,Y,3,N,N,Y,N,N,Y,NA
+485,14287,1974,Y,Y,2,9,N,N,Y,N,4,N,Y,Y,Y,N,Y,NA
+486,14152,1961,Y,Y,4,58,N,Y,Y,N,4,N,Y,N,Y,Y,Y,NA
+487,14287,1974,Y,Y,2,9,N,N,Y,N,3,N,N,Y,N,N,Y,NA
+488,14403,1970,Y,Y,3,14,Y,N,Y,Y,4,N,Y,Y,N,N,Y,NA
+489,14604,1973,Y,Y,3,17,N,Y,Y,Y,4,Y,Y,Y,N,Y?,Y,I coded yes for the opt-out clause because members can choose to exclude part of their territory from the treaty?
+490,266-I-3822,1956,Y,Y,3,8,N,Y,Y,N,4,Y,Y,N,N,N,Y,NA
+491,I-54669,2013,Y,Y,3,37,Y,Y,Y,N,4,N,Y,Y,N,Y,Y,NA
+492,8791,1967,Y,Y,3,4,N,Y,Y,N,4,N,Y,N,N,Y,Y,NA
+493,9464,1966,Y,Y,3,13,N,Y,Y,N,4,N,Y,Y,Y,Y,Y,NA
+494,13928,1973,Y,Y,3,3,N,Y,N,N,4,N,Y,N,N,N,Y,NA
+495,14691,1969,Y,Y,3,5,N,Y,Y,N,4,N,Y,N,Y,Y,Y,NA
+496,21623,1979,Y,Y,3,NA,N,N,Y,N,4,N,N,Y,N,N,Y,NA
+497,6813,1959,N,Y,2,3,N,N,N,N,1,N,N,N,N,Y,Y,NA
+498,6857,1963,N,Y,2,4,N,N,Y,N,3,Y,N,N,N,Y,Y,"Obl5: said yes because ""Government of the United States of America and the Government of the Central African Rebpulic will establish procedures whereby the Government of the Central African Republic will so deposit, segregate, or assure title to all funds llocated to or derived from any program of assistance undertaken hereunder by the Government of the United States of America"""
+499,6858,1963,N,Y,3,6,N,N,Y,N,3,N,N,N,N,Y,N,"Withd: I think this is flexibility but am not certain: ""The financing, sale and delivery of commodities under this agreement maybe terminated by either Government if that Government determines that because of changed conditions the continuation of such financing, sale or delivery is unnecessary or undesirable."" ""Ocean transportation"" is apparently a commodity that had an export market value of 100000. Does this mean boats? Also, is ""except costs resulting from the requirement that United States flag bessels be used"" a reference to the Jones Act?"
+500,6934,1962,N,Y,3,29,N,Y,N,N,3,N,Y,N,N,Y,Y,"""permitted to bury or cremate their dead according to their religious customs in suitable and convenient places """
+501,6998,1963,IO,Y,3,14,N,N,Y,Y,4,N,Y,N,N,Y,N,NA
+502,7017,1963,N,Y,3,3,N,N,N,N,5,N,N,N,N,N,N,NA
+503,7132,1957,N,Y,3,3,Y,N,Y,N,5,N,N,N,N,N,N,NA
+504,7173,1963,N,Y,3,3,N,N,N,N,5,N,N,N,N,N,Y,NA
+505,7190,1963,IO,Y,4,13,N,N,Y,Y,4,N,Y,N,N,Y,Y,NA
+506,7215,1963,N,Y,3,5,Y,N,N,N,3,N,N,N,N,N,Y,NA
+507,7728,1963,N,Y,4,2,Y,N,N,N,4,N,N,N,N,Y,Y,NA
+508,7264,1960,N,Y,3,4,Y,Y,Y,Y,5,N,Y,Y,N,Y,Y,"Very similar to a previous air transport treaty from one of the test sets but, interestingly, does not include the threat to revoke airline licenses in the event on non-compliance"
+509,7288,1962,N,Y,3,3,N,N,N,N,5,N,N,N,N,N,Y,NA
+510,7295,1963,N,Y,3,9,Y,Y,Y,Y,4,N,Y,Y,N,Y,Y,NA
+511,7298,1964,N,Y,3,1,N,N,N,N,5,Y,N,N,N,N,N,"Del1: ""the Government of New Zealand grants to the Government of France the right to enable its designated airline, namely the Union des Transports Aeriens, to operate a weekly return service..."" ; I never knew that requiring cabin staff to have ""an adequate knowledge"" of a language was a policy coming from the government, not the airline itself."
+512,7363,1964,IO,Y,4,14,N,N,Y,Y,5,Y,Y,N,N,Y,N,NA
+513,7473,1964,IO,Y,4,13,N,N,Y,Y,5,Y,Y,N,N,Y,N,"Thought this was an interesting condition: ""The Guarantor covenants that it will not take or permit any
+of its political subdivisions or any of its agencies or any agency of any political
+ance by the Borrower of"""
+514,7642,1963,N,Y,2,2,N,N,N,N,2,N,N,N,N,N,Y,Most flimsy sounding treaty I've read yet. Would be curious to know how much cultural/scientific exchange actually took place between Mali and Romania
+515,7690,1965,N,Y,2,2,N,N,N,N,5,N,N,N,N,Y,Y,NA
+516,7764,1963,IO,Y,3,10,N,N,Y,Y,5,Y,Y,N,N,Y,N,"Would an ""engineering consultant"" employed to give advice regarding construction and maintenance be considered a third party monitoring? It's a Yes to that question anyway because one of the treaty parties is an IO but I'm curious for future reference"
+517,7787,1964,N,Y,4,7,N,N,Y,Y,5,N,N,N,N,Y,N,"I said no to Obl5 because this sounded too vague ""The Government of the Republic of Korea will take all possible measures
+to prevent the resale or transshipment to other countries or the use for other
+than domestic purposes of the agricultural commodities purchased pursuant
+to this agreement"""
+518,7813,1963,N,Y,3,7,Y,N,Y,Y,5,N,N,N,N,Y,Y,NA
+519,7838,1963,N,Y,3,2,N,N,N,N,5,N,N,N,N,N,Y,NA
+520,7892,1965,N,Y,3,6,N,N,Y,N,5,N,N,N,N,Y,N,"Obl5: Does it count as domestic legislation if the government agrees to publish information about the measures they will take for implementation? The government isn't exactly establishing what those measures are yet, which is why I said no to domestic legislation: ""Government of the Dominican Republic agrees to furnish
+at least quarterly : (a) a statement of measures it has taken to prevent resale
+or transshipment of commodities furnished,"""
+521,7907,1965,N,Y,3,9,N,N,Y,Y,5,Y,N,N,N,Y,Y,"Obl3: This seemed a little inducive ""pending the receipt ov the explanation [of irregularities in  Money Order lists] payment of Orders found to be erroneous in the lists may be suspended at the discretion of the paying administration."""
+522,7962,1965,IO,Y,3,6,N,N,Y,N,4,Y,Y,N,N,Y,Y,NA
+523,7986,1965,N,Y,4,9,N,N,Y,N,5,N,N,N,N,Y,N,NA
+524,7987,1965,N,Y,2,2,N,Y,N,N,5,N,Y,N,N,Y,N,NA
+525,8161,1961,N,Y,3,6,Y,N,Y,Y,5,N,N,N,N,Y,Y,"Del1: ""Such agreement shall, where possible, be reached through the rate-fixing machinery set up by the International Air Transport Association?"""
+526,8190,1964,IO,Y,3,6,N,Y,N,N,5,N,Y,Y,N,Y,Y,NA
+527,8265,1965,IO,Y,4,14,N,N,Y,Y,4,Y,Y,N,N,Y,N,NA
+528,8394,1966,N,Y,3,7,N,N,Y,N,5,N,N,N,N,Y,N,NA
+529,8405,1966,N,Y,3,6,N,N,Y,N,5,N,N,N,N,Y,N,NA
+530,8460,1966,IO,Y,4,12,N,N,Y,Y,5,Y,Y,N,N,Y,N,NA
+531,8253,1965,N,Y,4,3,N,N,Y,N,5,N,N,N,N,N,N,POTATOES!
+532,8572,1963,Y,Y,3,7,N,Y,Y,N,4,N,Y,N,N,Y,Y,NA
+533,8580,1966,N,Y,3,9,Y,Y,Y,Y,5,N,Y,Y,N,Y,Y,NA
+534,8687,1966,N,Y,2,10,N,Y,Y,Y,4,N,Y,Y,N,Y,Y,NA
+535,8755,1966,N,Y,2,7,N,N,N,N,5,N,N,N,N,Y,Y,NA
+536,8790,1966,N,Y,3,4,N,N,N,N,5,N,N,N,N,N,Y,NA
+537,8851,1964,Y,Y,4,21,Y,Y,Y,N,5,N,Y,N,N,Y,N,NA
+538,8955,1967,IO,Y,2,3,N,N,N,N,4,N,Y,N,N,Y,Y,NA
+539,9033,1965,N,Y,2,4,N,N,N,N,2,N,N,N,N,Y,Y,NA
+540,9070,1968,IO,Y,2,2,Y,Y,N,N,5,N,Y,N,N,Y,Y,NA
+541,9250,1968,IO,Y,3,5,N,Y,N,N,5,N,Y,Y,N,N,Y,NA
+542,9258,1967,Y,Y,3,4,N,N,Y,N,5,N,Y,N,N,N,Y,NA
+543,9295,1968,N,Y,2,1,N,N,N,Y,5,N,Y,N,N,N,N,NA
+544,9321,1968,IO,Y,3,7,N,N,Y,Y,5,Y,Y,Y,N,Y,Y,NA
+545,9391,1967,N,Y,3,2,N,N,Y,N,5,N,N,N,N,N,N,NA
+546,9397,1966,N,Y,3,18,N,N,Y,N,5,N,N,N,N,Y,Y,NA
+547,9481,1968,N,Y,3,5,N,Y,N,N,5,N,N,Y,N,N,Y,NA
+548,25979,1987,N,Y,3,5,Y,N,Y,Y,4,N,N,N,N,Y,Y,NA
+549,25896,1984,N,Y,2,3,N,N,Y,N,5,N,N,N,N,N,Y,NA
+550,26053,1988,IO,NA,NA,1,N,N,N,N,NA,N,Y,N,N,N,N,NA
+551,26132,1986,N,Y,4,17,N,Y,Y,N,5,N,N,N,N,Y,Y,NA
+552,26154,1988,IO,Y,4,2,Y,N,Y,N,5,N,Y,N,N,N,Y,NA
+553,26165,1986,N,Y,3,3,N,N,Y,N,4,N,Y,N,N,Y,Y,"""The cooperation pursuant to this Agreement shall be solely for
+peaceful purposes and any material and equipment received thereunder shall not be used
+for the development or the manufacture of any nuclear explosive device or for any military
+purpose."" right..."
+554,26219,1988,IO,NA,NA,1,N,N,N,N,NA,N,Y,N,N,N,N,NA
+555,26399,1987,IO,NA,NA,1,N,N,N,N,NA,N,Y,N,N,N,N,NA
+556,26432,1988,IO,NA,NA,1,N,N,N,N,NA,N,Y,N,N,N,N,NA
+557,26533,1981,N,Y,2,2,N,N,Y,N,5,N,N,N,N,Y,N,NA
+558,26682,1987,N,Y,3,2,N,N,N,N,4,N,N,N,N,Y,N,NA
+559,26771,1986,N,Y,3,2,N,N,N,N,4,N,N,N,N,Y,N,NA
+560,26826,1989,IO,NA,NA,1,N,N,N,N,NA,N,Y,N,N,N,N,NA
+561,26856,1988,N,Y,2,4,N,N,N,N,3,N,Y,Y,N,Y,N,NA
+562,26885,1989,IO,NA,NA,1,N,N,N,N,NA,N,Y,N,N,N,N,NA
+563,26920,1988,N,Y,4,5,Y,N,N,N,4,N,N,Y,N,Y,N,NA
+564,26947,1981,IO,Y,3,3,N,N,Y,N,5,N,Y,N,N,N,Y,NA
+565,26964,1989,N,Y,3,3,N,N,Y,N,5,N,N,Y,Y,N,Y,NA
+566,26966,1989,N,Y,3,2,N,N,N,N,5,N,N,N,N,N,Y,NA
+567,27079,1988,N,Y,3,17,Y,N,Y,N,5,N,N,N,N,Y,Y,NA
+568,27234,1988,IO,NA,NA,1,N,N,N,N,NA,N,Y,N,N,N,N,NA
+569,27328,1989,IO,NA,NA,1,N,N,N,N,NA,N,Y,N,N,N,N,NA
+570,27447,1988,IO,Y,2,9,N,Y,Y,Y,4,N,Y,Y,N,Y,Y,NA
+571,27487,1989,N,Y,2,2,N,N,N,N,5,N,N,N,N,N,Y,NA
+572,27587,1989,N,Y,2,4,Y,N,Y,N,3,N,Y,Y,Y,Y,Y,This treaty was about cinematic cooperation between Spain and Portugal. It was refreshing to read about the details of  producing art but also a little weird to think about collaborating on film requiring legal dialogue
+573,27603,1988,N,Y,3,9,N,Y,Y,N,5,N,Y,Y,Y,N,Y,"Titled ""Convention of accession for participation in the international institute of scientifici research for development"" followed by ""statute of the international institute of scientific research for development"" with articles of its own. Are these viewed as one treaty?
+""Should the institute be closed down, on the basis of the principle of sovreignty, all the immovable property shall revert to Cote d'Ivoire."" I think I understand sovreignty but am not super clear on how leaving immovable property in the Cote d'Ivoire headquarters is respecting sovereignty?"
+574,27627,1988,Y,Y,4,43,Y,Y,Y,N,4,Y,Y,N,Y,Y,Y,"An entire treaty about drug trafficking. I bet this line gets touchy ""In considering requests received pursuant to this article, the
+requested State may refuse to comply with such requests where there are
+substantial grounds leading its judicial or other competent authorities to
+believe that compliance would facilitate the prosecution or punishment of any
+person on account of his race, religion, nationality or political opinions, or
+would cause prejudice for any of those reasons to any person affected by the
+reques t."""
+575,27717,1988,IO,NA,NA,1,N,N,N,N,NA,N,Y,N,N,N,N,NA
+576,28022,1983,Y,Y,4,7,Y,N,Y,N,4,N,Y,N,N,N,Y,The strange multilateral treaty with 22 pages of annexi? annexes?
+577,49842,2005,N,Y,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,It's not even one page
+578,49510,2010,N,Y,2,3,N,N,N,N,5,N,Y,Y,N,N,Y,NA
+579,49532,2011,N,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Another 0-page
+580,49545,2011,N,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Another 0-page
+581,49598,2010,N,Y,4,29,Y,Y,Y,N,4,N,N,Y,N,Y,Y,NA
+582,49613,2006,N,Y,3,2,N,N,N,N,5,N,N,N,N,Y,Y,NA
+583,49654,2011,N,Y,4,3,N,N,Y,N,5,N,Y,Y,Y,N,Y,NA
+584,49666,2001,N,Y,4,3,N,N,N,N,5,N,N,N,N,N,Y,NA
+585,49697,2010,N,Y,4,38,N,N,Y,N,4,N,N,N,N,Y,Y,NA
+586,49871,2012,N,Y,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"I'm sure this would be super juicy if it was available to read... ""Arrangement between the Government of the Federal Republic of Germany and the Government of the United States of America regarding the granting of exemptions and benefits to enterprises charged with providing analytical support services for the United States Forces stationed in the Federal Republic of Germany"""
+587,49893,1997,N,Y,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+588,50016,2011,N,Y,3,114,Y,Y,Y,N,3,Y,Y,Y,Y,Y,Y,It was kind of mind boggling how vague this treaty was on such a breadth of issues
+589,50151,2012,IO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+590,50274,2012,IO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+591,50279,2012,IO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Two consecutive Chinese projects ""(Hubei Xiangyang Urban Transport Project)"" and ""(Ningxia Desertification Control and Ecological Protection Project)"" with the International Bank for Reconstruction and Development. It surprises me given China's claim to being an economic powerhouse that they require support from international organizations."
+592,50333,1997,N,Y,4,2,N,N,N,N,5,N,N,N,N,N,N,I couldn't decide whether to code all of this as NA becuase it's an exchange of note constituting an agreement to remove an annex in an existing treaty. But the present treaty does not explain the details of the annex besides it being a change prompted by Pakistan's concerns over computer reservation systems.
+593,50403,2012,N,Y,3,9,N,N,Y,N,4,N,N,N,N,Y,Y,"Amused by the range of ""classified information will be transmitted between the two parties through Government to Government channels, but other arrangements, such as hand carriage, secure communications (encryption), may be established"""
+594,50628,2010,N,Y,2,2,N,N,N,N,4,N,N,N,N,Y,Y,NA
+595,50712,2011,N,Y,3,4,N,N,N,N,5,N,N,N,N,N,Y,NA
+596,50725,1998,N,Y,NA,10,Y,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+597,48457,2009,Y,Y,2,16,Y,Y,Y,N,2,N,Y,Y,Y,Y,N,NA
+598,48207,2009,N,Y,3,122,Y,Y,Y,Y,4,N,Y,Y,Y,N,Y,I get kind of confused when differentiating between a non-state actor and a new body. Would a committee created by the agreement that has greater responsibilities than just reviewing the agreement's progress count as a new body or a non-state actor? or both?
+599,47955,2006,IO,Y,2,16,Y,N,Y,Y,2,N,Y,Y,Y,N,Y,"between the US and the ""European Community"""
+600,48341,1999,N,N,NA,0,N,N,N,N,NA,N,N,N,N,N,N,the treaty was just the title page
+601,48051,2009,N,Y,2,5,N,Y,Y,N,2,N,Y,Y,Y,N,Y,NA
+602,48023,2009,IO,N,NA,0,N,N,N,N,NA,N,N,N,N,N,N,NA
+603,48025,2010,IO,N,NA,0,N,N,N,N,NA,N,N,N,N,N,N,NA
+604,48008,2010,N,Y,3,4,N,Y,N,N,4,N,N,N,N,Y,Y,NA
+605,47946,2005,IO,Y,3,9,Y,N,Y,N,3,N,Y,Y,Y,N,Y,another treaty with the European Community
+606,48537,2010,N,Y,2,6,N,Y,Y,N,2,N,N,N,N,N,Y,NA
+607,47802,2010,IO,N,NA,0,N,N,N,N,NA,N,N,N,N,N,N,NA
+608,48507,2010,IO,N,NA,0,N,N,N,N,NA,N,N,N,N,N,N,NA
+609,47799,2010,IO,N,NA,0,N,N,N,N,NA,N,N,N,N,N,N,NA
+610,48426,2010,IO,N,NA,0,N,N,N,N,NA,N,N,N,N,N,N,NA
+611,47047,2007,N,Y,3,23,Y,N,Y,N,4,Y,N,N,N,Y,Y,NA
+612,47784,2009,N,Y,3,4,N,N,N,N,3,N,Y,N,N,N,N,NA
+613,47290,1998,N,Y,3,7,N,N,N,N,5,N,Y,N,N,N,Y,does authorizing use of a non-state actor's facilities count as conferring rights or responsibilities to them?
+614,47778,2010,IO,N,NA,0,N,N,N,N,NA,N,N,N,N,N,N,NA
+615,47119,1998,N,N,NA,0,N,N,N,N,NA,N,N,N,N,N,N,NA
+616,47709,1998,N,Y,3,16,N,N,N,N,4,N,Y,N,N,N,Y,NA
+617,47118,2000,N,Y,2,4,N,N,N,N,1,N,N,N,N,N,Y,NA
+618,46982,1998,N,N,NA,0,N,N,N,N,NA,N,N,N,N,N,N,NA
+619,46969,2001,N,Y,2,4,N,Y,Y,N,4,N,Y,Y,Y,N,Y,NA
+620,46903,2007,N,Y,2,4,N,N,N,N,2,N,N,N,N,N,Y,NA
+621,47647,2010,N,N,NA,0,N,N,N,N,NA,N,N,N,N,N,N,NA
+622,47003,2005,N,Y,2,6,Y,Y,Y,N,3,N,Y,Y,Y,N,Y,NA
+623,47646,2009,N,N,NA,0,N,N,N,N,NA,N,N,N,N,N,N,NA
+624,46888,2009,IO,Y,3,4,N,N,N,N,3,N,Y,N,N,N,N,NA
+625,47421,2001,N,Y,2,3,N,N,N,N,5,N,N,N,N,Y,Y,NA
+626,46875,2009,IO,N,NA,0,N,N,N,N,NA,N,N,N,N,N,N,NA
+627,22300,1982,IO,Y,4,7,N,Y,Y,Y,4,N,Y,Y,N,N,Y,NA
+628,22215,1982,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+629,21986,1980,N,N,3,1,N,N,N,N,4,N,N,N,N,Y,Y,NA
+630,22139,1982,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+631,22008,1981,N,Y,2,2,N,N,N,N,5,N,N,N,N,Y,N,NA
+632,21978,1977,N,Y,3,6,Y,Y,Y,Y,4,Y,Y,N,N,N,Y,NA
+633,21943,1979,N,Y,2,2,N,N,Y,N,1,N,N,N,N,N,Y,NA
+634,21993,1981,N,Y,3,2,Y,N,N,N,5,N,N,N,N,Y,N,NA
+635,21749,1982,N,Y,4,4,N,Y,N,N,3,N,N,Y,N,N,Y,NA
+636,21719,1981,N,Y,2,2,N,N,N,N,5,N,N,N,N,Y,N,NA
+637,21680,1980,N,Y,2,2,N,N,N,N,5,N,N,N,N,Y,N,NA
+638,21611,1980,Y,Y,1,2,N,N,N,N,1,N,N,N,N,N,N,encourages the settlement of disputes but doesn't outline any formal procedures
+639,21562,1981,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+640,21354,1982,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+641,21384,1982,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+642,21312,1982,N,Y,2,3,N,N,N,N,4,N,N,N,N,Y,N,NA
+643,21264,1969,Y,Y,4,9,Y,N,N,N,4,N,Y,N,N,Y,Y,an organization collects information from the parties in regards to the agreement but it doesn't specify that it's for monitoring their compliance
+644,21172,1981,N,Y,2,2,N,N,Y,N,2,N,Y,Y,Y,N,Y,NA
+645,21142,1974,N,Y,3,3,Y,N,N,N,3,N,Y,Y,N,N,Y,NA
+646,21001,1980,N,Y,3,9,N,N,Y,Y,5,N,N,N,N,Y,N,NA
+647,20975,1982,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+648,20961,1981,IO,Y,3,8,Y,Y,Y,Y,4,N,Y,Y,N,Y,N?,NA
+649,20853,1980,N,Y,2,4,N,N,Y,N,4,N,N,N,N,N,N,NA
+650,20849,1980,N,Y,3,4,Y,N,N,N,4,N,Y,N,N,N,Y,refers to the existence of an annex but it is not in the document itself
+651,20788,1981,N,Y,3,3,N,N,Y,N,4,N,N,N,N,N,Y,NA
+652,20785,1981,N,Y,2,2,N,N,N,N,2,N,N,N,N,N,N,NA
+653,20689,1982,IO,Y,3,5,N,Y,Y,N,4,N,Y,N,N,Y,Y,NA
+654,20526,1981,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+655,20482,1980,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+656,20469,1980,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+657,20455,1981,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+658,20428,1981,IO,Y,3,6,N,Y,Y,N,4,N,Y,N,N,Y,Y,NA
+659,20371,1981,N,Y,4,6,Y,N,N,N,5,N,N,N,N,N,Y,NA
+660,20152,1980,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+661,20080,1980,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+662,20199,1977,N,Y,4,8,Y,N,N,N,5,N,Y,N,N,Y,Y,NA
+663,19807,1977,IO,Y,2,2,NA,N,Y,N,4,N,Y,N,N,N,N,NA
+664,19773,1977,N,Y,3,7,Y,Y,Y,N,4,Y,Y,Y,N,N,Y,NA
+665,19738,1981,IO,N,NA,1,Y,N,N,N,NA,N,N,N,N,N,N,NA
+666,19706,1979,N,Y,4,3,Y,N,N,N,2,N,Y,N,N,Y,Y,NA
+667,19660,1980,N,Y,3,4,N,N,Y,N,4,N,N,N,N,N,Y,NA
+668,19614,1978,IO,Y,3,2,N,N,Y,N,3,N,Y,N,N,N,N,NA
+669,19575,1979,N,Y,3,2,N,N,N,N,5,N,N,N,N,N,Y,NA
+670,19528,1980,N,Y,2,2,N,N,Y,N,3,N,Y,N,N,N,Y,NA
+671,19451,1978,N,Y,3,2,N,N,N,N,5,N,Y,N,N,Y,N,NA
+672,19446,1978,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+673,19421,1980,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+674,19356,1979,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+675,19282,1979,Y,N,3,4,Y,N,Y,N,2,N,Y,Y,Y,N,Y,NA
+676,19175,1977,N,Y,2,3,N,N,N,N,2,N,N,N,N,N,Y,NA
+677,19075,1980,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+678,18990,1976,N,Y,2,2,N,N,N,N,3,N,N,N,N,N,Y,NA
+679,1671,1968,Y,Y,4,42,Y,Y,N,N,4,Y,Y,N,N,Y,Y,NA
+680,1963,1951,Y,Y,3,13,Y,Y,Y,N,4,Y,Y,Y,Y,N,Y,NA
+681,2124,1946,Y,Y,4,8,Y,N,Y,Y,5,N,Y,Y,Y,Y,Y,NA
+682,1870,1949,IO,Y,2,13,N,N,Y,Y,3,N,Y,N,Y,Y,Y,NA
+683,1691,1949,Y,Y,2,8,N,N,Y,N,2,N,Y,Y,Y,N,Y,NA
+684,1609,1948,Y,Y,2,41,N,Y,Y,N,3,Y?,Y,Y,Y,N,Y,NA
+685,1230,1923,Y,NA,NA,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,one of those treaties where the entire thing is overlapping layers of text
+686,1070,1948,IO,Y,2,10,N,N,N,N,3,N,Y,N,N,Y,Y,NA
+687,1041,1949,N,Y,2,12,N,N,Y,N,3,Y,Y,Y,Y,N,Y,NA
+688,1016,1946,IO,Y,3,12,N,N,Y,Y,4,Y,Y,N,Y,Y,Y,NA
+689,1379,1923,Y,Y,3,7,N?,Y,N,N,4,N,Y,Y,N,Y,Y,NA
+690,904,1940,Y,Y,3,15,Y,N,Y,N,3,Y,Y,N,Y,N,Y,NA
+691,898,1948,IO,Y,2,14,N,N,Y,N,2,Y,Y,N,N,Y,Y,NA
+692,1340,1949,IO,Y,2,16,N,N,Y,Y,3,N,Y,N,Y,Y,Y,NA
+693,714,1947,Y,Y,2,7,N,N,N,N,3,N,Y,Y,N,N,Y,NA
+694,814,1947,Y,Y,4,72,Y,Y,Y,Y,4,Y,Y,N,Y,Y,Y,NA
+695,1296,1949,Y,Y,3,8,N,N,Y,N,3,N,Y,Y,Y,N,Y,NA
+696,710,1947,Y,Y,2,11,N,Y,N,N,3,Y,Y,N,N,N,Y,NA
+697,709,1947,Y,Y,1,5,Y,N,N,N,2,N,Y,N,N,N,N,doesn't have an attached annex but repeatedly refers to the existence of one
+698,640,1948,IO,Y,2,6,N,N,Y,N,3,N,Y,N,Y,Y,Y,NA
+699,639,1948,IO,Y,3,25,N,N,Y,N,4,N,Y,N,Y,Y,Y,NA
+700,635,1948,IO,N,2,7,N,N,Y,N,4,N,Y,N,Y,N,Y,NA
+701,625,1948,IO,N,2,6,N,N,Y,N,4,N,Y,N,Y,N,Y,NA
+702,638,1948,IO,Y,3,16,N,N,Y,N,2,N,Y,N,Y,Y,Y,NA
+703,637,1948,IO,Y,3,16,N,N,Y,N,3,Y,Y,N,Y,Y,Y,NA
+704,636,1948,IO,Y,3,11,N,N,Y,N,4,Y,Y,N,Y,Y,Y,NA
+705,634,1948,IO,Y,3,10,N,Y,Y,N,4,Y,Y,N,Y,Y,Y,NA
+706,631,1948,IO,N,3,11,N,N,Y,N,4,Y,Y,N,Y,Y,Y,NA
+707,630,1948,IO,Y,3,20,N,N,Y,N,4,N,Y,N,Y,Y,Y,NA
+708,626,1948,IO,Y,3,12,N,N,Y,Y,4,Y,Y,N,Y,Y,Y,NA
+709,624,1948,IO,Y,2,9,N,N,Y,N,2,Y,Y,N,Y,N,Y,NA
+710,623,1948,IO,Y,2,7,N,N,Y,N,4,N,Y,N,Y,Y,Y,NA
+711,622,1948,IO,Y,3,18,N,N,Y,Y,4,Y,Y,N,Y,Y,Y,NA
+712,615,1948,IO,Y,3,12,N,N,Y,N,5,Y,Y,N,Y,Y,Y,NA
+713,614,1948,IO,Y,3,18,N,N,Y,N,4,Y,Y,N,Y,Y,Y,NA
+714,609,1948,IO,Y,2,6,N,N,Y,N,3,Y,Y,N,Y,N,Y,NA
+715,607,1948,IO,Y,3,8,N,N,Y,N,4,Y,Y,N,Y,Y,Y,NA
+716,603,1948,IO,N,2,6,N,N,Y,N,3,N,Y,N,Y,Y,Y,NA
+717,604,1948,IO,Y,2,7,N,N,Y,N,3,N,Y,N,Y,N,Y,NA
+718,297,1919,Y,Y,3,8,Y,N,N,N,4,N?,Y,N,N,N,N,one of those treaties where a lot of it is overlapping layers of text
+719,172,1921,Y,Y,3,27,Y,Y,Y,Y,4,N?,Y,Y?,Y,Y,Y,one of those treaties where a lot of it is overlapping layers of text
+720,170,1945,IO,Y,3,19,N,Y,N,N,5,N,Y,N,N,N,N,overlapping layers of text but able to read most of it
+721,592,1948,IO,Y,3,8,N,N,Y,Y,3,Y,Y,Y,Y,N,Y,NA
+722,590,1948,IO,N,2,4,N,N,Y,N,4,N,Y,N,Y,N,Y,NA
+723,601,1948,IO,Y,3,6,N,N,Y,N,3,Y,Y,N,Y,N,Y,NA
+724,589,1948,IO,N,3,8,N,N,Y,N,4,N,Y,N,Y,Y,Y,NA
+725,598,1948,IO,N,2,6,N,N,Y,N,4,N,Y,N,Y,Y,Y,NA
+726,593,1948,IO,N,2,5,N,N,Y,N,5,N,Y,N,Y,N,Y,NA
+727,588,1948,IO,Y,3,7,N,N,Y,N,4,N,Y,N,Y,Y,Y,NA
+728,296,1948,Y,Y,2,5,Y,N,N,N,3,N,Y,N,N,N,Y,NA
+729,108,1890,Y,Y,4,16,N,N,Y,N,4,N,Y,Y,Y,N,Y,NA
+730,102,1944,Y,Y,4,61,Y,Y,Y,Y,4,Y,Y,Y,Y,Y,Y,NA
+731,586,1948,IO,Y,3,6,N,N,Y,N,4,N,Y,N,Y,N,Y,NA
+732,585,1948,IO,Y,2,5,N,N,Y,N,3,Y,Y,N,Y,N,Y,NA
+733,20 (a),1944,Y,Y,4,53,Y,Y,Y,Y,4,Y,Y,Y,Y,Y,Y,overlapping text but it can be pasted into another document so it is readable
+734,20 (b),1944,Y,Y,4,19,Y,Y,Y,Y,5,Y,Y,Y,Y,Y,Y,NA
+735,15,1971,Y,Y,4,36,Y,Y,N,Y,4,Y,Y,Y,N,Y,Y,NA
+736,502,1944,Y,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Y,NA,NA
+737,449,1948,Y,Y,3,14,Y,Y,N,N,4,N,Y,Y,N,Y,Y,NA
+738,55 (a),1961,Y,N,3,7,N,N,N,N,5,N,N,N,N,Y,Y,NA
+739,11654,1971,Y,Y,3,6,N,N,Y,N,3,N,Y,Y,Y,N,Y,NA
+740,8303,1965,Y,Y,4,37,Y,Y,Y,Y,5,N,Y,Y,Y,Y,Y,NA
+741,21052,1982,Y,Y,4,27,Y,Y,Y,Y,5,N,Y,Y,Y,Y,Y,NA
+742,10232,1969,Y,Y,4,45,Y,Y,Y,Y,5,N,Y,Y,Y,Y,Y,NA
+743,33836,1996,Y,N,3,16,N,Y,Y,N,4,N,Y,Y,Y,N,Y,NA
+744,24841,1984,Y,Y,3,10,N,Y,Y,N,5,Y,Y,Y,Y,Y,Y,NA
+745,12430,1971,Y,Y,2,4,N,N,N,N,4,Y,Y,N,N,N,Y,NA
+746,23432,1979,Y,Y,4,13,Y,Y,Y,Y,3,N,Y,Y,Y,N,Y,NA
+747,37770,1998,Y,NA,NA,17,Y,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,only in french
+748,7525,1962,Y,N,1,4,N,Y,N,N,5,Y,Y,N,N,Y,Y,NA
+749,52106,1997,Y,Y,3,20,Y,Y,Y,N,4,N,Y,Y,N,Y,N,NA
+750,53163,2006,N,Y,3,4,Y,N,Y,N,4,N,N,N,N,N,Y,NA
+751,55448,1990,IO,Y,3,8,Y,N,Y,N,4,N,Y,N,Y,N,N,one of the annexes is another agreement which has a dispute resolution provision
+752,53453,2003,Y,Y,3,7,Y,N,N,N,5,Y,N,N,N,N,N,NA
+753,55070,1999,N,NA,NA,9,N,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,only in danish and swedish
+754,53236,1998,N,Y,4,9,N,N,N,N,4,N,N,N,N,N,Y,NA
+755,51849,2013,N,Y,4,27,N,Y,Y,N,4,Y,N,N,N,Y,Y,NA
+756,52728,2004,Y,Y,4,22,Y,Y,N,Y,3,N,N,Y,N,N,Y,NA
+757,52373,2013,Y,Y,3,17,N,Y,Y,N,3,Y,Y,N,N,Y,Y,NA
+758,55713,2005,Y,NA,NA,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,only in porteguese and spanish
+759,51975,2013,IO,Y,3,6,N,Y,N,N,4,N,Y,N,N,N,N,NA
+760,52285,2009,IO,Y,2,6,N,Y,N,Y,4,N,Y,N,N,N,Y,NA
+761,52672,1984,IO,Y,3,5,N,Y,N,N,3,N,Y,N,N,N,Y,NA
+762,55377,2007,Y,Y,3,19,N,N,Y,Y,3,Y,Y,N,Y,Y,N,NA
+763,55487,2012,Y,Y,4,45,N,Y,Y,N,4,Y,Y,N,Y,N,Y,NA
+764,55339,2002,Y,Y,3,28,N,N,Y,N,4,Y,Y,Y,Y,N,N,NA
+765,54669,2013,Y,Y,4,37,Y,Y,Y,N,4,N,Y,N,Y,Y,Y,NA
+766,55125,2010,IO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+767,55127,2011,IO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+768,51900,2008,IO,Y,2,3,N,N,N,N,2,N,Y,Y,N,N,Y,NA
+769,55099,2011,IO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+770,51941,2013,IO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+771,Multilateral Agreement for the Establishment of an International Think Tank for Landlocked Developing Countries,2010,Y,Y,3,10,N,Y,Y,N,3,N,Y,N,Y,N,N,"no treaty number, documented titled ""landlocked"""
+772,67,1920,Y,Y,4,23,Y,N,N,N,4,N,N,Y,N,N,N,NA
+773,345,1947,N,Y,2,4,N,Y,N,N,3,N,Y,Y,N,N,Y,NA
+774,698,1903,N,Y,2,4,N,Y,N,N,3,Y,Y,Y,N,N,N,NA
+775,720,1974,IO,Y,2,4,N,N,N,N,3,N,Y,N,N,N,Y,NA
+776,955,1948,N,Y,3,12,N,N,Y,N,4,N,N,N,N,N,Y,NA
+777,1013,1987,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+778,1180,1948,N,Y,2,3,N,N,N,N,2,N,N,N,N,N,Y,NA
+779,2160,1952,N,Y,3,5,N,N,N,Y,3,N,N,N,N,Y,Y,NA
+780,2273,1953,N,Y,4,7,Y,Y,Y,Y,4,N,Y,Y,N,Y,Y,NA
+781,2303,1951,Y,Y,4,37,Y,N,Y,N,4,N,Y,N,Y,Y,Y,NA
+782,2327,1952,N,Y,2,2,N,Y,N,N,2,N,Y,N,N,N,N,NA
+783,2623,1931,Y,Y,2,1,Y,N,Y,N,2,N,Y,Y,N,Y,N,NA
+784,2655,1952,Y,Y,1,1,N,N,N,N,1,N,N,N,N,Y,N,NA
+785,2962,1955,Y,Y,2,5,N,Y,N,N,2,N,Y,Y,N,N,N,NA
+786,2986,1953,N,Y,2,3,N,N,N,N,2,N,Y,N,N,N,Y,NA
+787,2989,1952,N,Y,1,2,N,N,N,N,1,N,N,N,N,N,N,NA
+788,3229,1953,N,Y,1,2,N,N,N,N,1,N,N,N,N,N,Y,NA
+789,3364,1953,N,Y,3,14,Y,Y,N,N,4,Y,N,N,N,Y,Y,NA
+790,3501,1956,N,Y,3,15,N,N,N,N,4,Y,N,N,N,N,Y,NA
+791,3738,1955,N,Y,2,4,N,N,N,N,2,N,Y,N,N,N,N,NA
+792,4034,1955,N,Y,2,11,N,N,Y,N,3,N,N,N,N,N,N,NA
+793,4813,1958,N,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+794,5563,1961,IO,Y,2,7,N,N,Y,N,3,N,Y,N,Y,N,Y,NA
+795,5645,1960,N,Y,3,6,Y,N,N,N,3,N,N,N,N,N,Y,NA
+796,5670,1960,N,Y,3,7,Y,Y,N,Y,4,N,Y,Y,N,N,N,NA
+797,5680,1961,IO,Y,2,5,N,N,Y,N,2,N,Y,N,N,N,Y,NA
+798,5722,1953,N,Y,2,3,N,N,N,N,2,N,N,N,N,N,N,NA
+799,5820,1959,N,Y,3,10,Y,Y,Y,N,4,N,N,N,N,Y,Y,NA
+800,5855,1961,IO,Y,2,5,Y,Y,N,N,4,N,Y,Y,N,N,Y,Annex mentioned but not present in document
+801,5926,1960,N,Y,3,8,Y,Y,Y,N,3,N,Y,Y,N,Y,Y,NA
+802,5983,1961,IO,Y,4,4,Y,N,Y,Y,4,N,Y,N,Y,N,N,NA
+803,6009,1961,IO,Y,3,7,Y,N,Y,Y,3,N,Y,N,N,Y,N,NA
+804,6064,1961,IO,Y,2,5,N,N,Y,N,2,N,Y,N,N,N,Y,NA
+805,6099,1962,IO,Y,3,7,N,Y,Y,N,3,N,Y,Y,Y,Y,Y,NA
+806,6186,1958,N,Y,1,2,N,N,N,N,2,N,N,N,N,N,Y,NA
+807,6378,1962,N,Y,1,2,N,Y,N,N,2,N,Y,N,N,N,N,NA
+808,6469,1962,N,Y,3,6,N,N,Y,N,3,N,Y,Y,Y,N,N,NA
+809,6482,1961,N,Y,2,4,Y,N,N,Y,3,N,Y,N,N,N,Y,NA
+810,6556,1963,N,Y,1,2,N,N,N,N,1,N,N,N,N,N,Y,NA
+811,6644,1962,N,Y,2,4,N,N,Y,N,3,N,Y,N,N,N,Y,NA
+812,6680,1962,N,Y,2,4,N,N,Y,N,2,N,Y,N,N,N,Y,NA
+813,6727,1961,N,Y,3,7,N,Y,Y,Y,3,N,Y,Y,Y,Y,Y,NA
+814,6733,1961,N,Y,3,5,Y,Y,N,Y,2,N,Y,Y,Y,Y,Y,NA
+815,6762,1962,IO,Y,3,7,Y,N,Y,Y,3,N,Y,N,N,Y,Y,NA
+816,6813,1959,N,Y,2,4,N,Y,N,N,2,N,Y,N,N,N,Y,NA
+817,6857,1963,N,Y,2,4,N,N,Y,N,2,N,N,N,N,N,Y,NA
+818,6858,1963,N,Y,2,5,Y,N,Y,N,2,N,Y,N,N,N,Y,NA
+819,25028,1984,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+820,25095,1986,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+821,25118,1986,N,Y,1,2,N,N,N,N,2,N,N,N,N,N,N,NA
+822,25162,1985,N,Y,3,2,Y,N,Y,N,4,N,N,N,N,N,Y,NA
+823,6998,1963,IO,Y,3,5,Y,N,Y,Y,3,N,Y,N,N,N,Y,NA
+824,25204,1987,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+825,25227,1986,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+826,25268,1987,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+827,25278,1986,N,Y,2,2,Y,Y,N,N,3,N,N,N,N,N,Y,NA
+828,25297,1984,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+829,25301,1984,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+830,25344,1986,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+831,5211,1957,Y,Y,4,30,Y,Y,Y,Y,4,N,Y,Y,Y,Y,Y,NA
+832,25367,1987,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+833,25404,1986,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+834,25415,1985,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+835,25432,1987,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+836,25435,1986,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+837,25451,1986,N,Y,2,3,Y,N,N,N,2,N,Y,N,Y,N,N,NA
+838,25493,1981,IO,Y,2,9,N,Y,N,N,2,N,Y,Y,Y,N,Y,NA
+839,25509,1984,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+840,25571,1986,Y,Y,2,7,N,N,Y,N,3,N,N,Y,N,N,Y,NA
+841,25616,1986,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+842,25702,1981,Y,Y,3,9,N,N,Y,N,3,N,Y,Y,N,Y,Y,NA
+843,25714,1984,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+844,25731,1985,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+845,25780,1979,N,Y,2,3,N,N,N,N,1,N,N,Y,N,N,Y,NA
+846,25827,1983,N,Y,1,2,N,N,N,N,2,N,N,N,N,N,N,NA
+847,5792,1960,Y,Y,4,37,Y,Y,Y,Y,4,N,Y,Y,Y,N,Y,NA
+848,6934,1962,N,Y,3,24,Y,Y,N,N,3,N,Y,N,N,Y,Y,NA
+849,25961,1988,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+850,25979,1987,N,Y,2,5,Y,N,Y,N,2,N,N,N,N,N,Y,NA
+851,25986,1984,N,Y,2,3,N,N,Y,N,2,N,N,N,N,N,Y,NA
+852,26053,1988,IO,N,NA,1,N,N,N,N,NA,N,N,N,N,N,N,NA
+853,48341,1999,N,N,NA,NA,N,N,N,N,NA,N,N,N,N,N,N,NA
+854,48426,2010,IO,N,NA,NA,N,N,N,N,NA,N,N,N,N,N,N,NA
+855,48507,2010,IO,N,NA,NA,N,N,N,N,NA,N,N,N,N,N,N,NA
+856,48537,2010,N,Y,2,7,N,Y,N,N,2,N,Y,N,N,N,Y,NA
+857,48793,2010,N,Y,1,2,N,N,N,N,2,N,N,N,N,Y,Y,NA
+858,49036,2011,IO,N,NA,NA,N,N,N,N,NA,N,N,N,N,N,N,NA
+859,49131,2011,IO,N,NA,NA,N,N,N,N,NA,N,N,N,N,N,N,NA
+860,49178,2011,IO,Y,2,5,N,N,Y,N,2,N,Y,Y,Y,N,N,NA
+861,49011,2009,N,Y,3,11,Y,Y,N,Y,4,N,Y,N,N,N,Y,NA
+862,48906,2007,N,Y,4,12,Y,Y,Y,Y,4,N,Y,Y,N,N,Y,NA
+863,49183,2011,N,Y,1,3,N,N,N,N,2,N,N,Y,N,N,Y,NA
+864,49208,2011,IO,N,NA,NA,N,N,N,N,NA,N,N,N,N,N,N,NA
+865,49222,1989,N,N,NA,NA,N,N,N,N,NA,N,N,N,N,N,N,NA
+866,49302,2011,N,N,NA,NA,N,N,N,N,NA,N,N,N,N,N,N,NA
+867,49387,2012,N,N,NA,NA,N,N,N,N,NA,N,N,N,N,N,N,NA
+868,49482,2005,N,N,NA,NA,N,N,N,N,NA,N,N,N,N,N,N,NA
+869,49532,2011,N,N,NA,NA,N,N,N,N,NA,N,N,N,N,N,N,NA
+870,49510,2010,N,Y,1,3,N,N,N,N,2,N,N,N,N,N,Y,NA
+871,49428,2010,N,Y,3,9,N,N,Y,N,3,N,N,N,N,N,Y,NA
+872,49359,2010,N,Y,2,11,N,N,N,N,3,N,Y,N,N,Y,N,NA
+873,48457,2009,Y,Y,3,16,Y,Y,N,N,3,N,Y,Y,Y,N,N,NA
+874,8768,1949,IO,Y,3,8,N,N,N,N,3,N,Y,Y,N,Y,Y,NA
+875,8769,1966,Y,Y,1,2,Y,N,N,N,2,N,N,N,N,N,Y,NA
+876,8836,1965,IO,Y,2,5,N,N,Y,N,3,N,Y,N,Y,N,Y,NA
+877,8844,1964,IO,Y,4,8,Y,Y,Y,Y,4,N,Y,Y,Y,Y,Y,NA
+878,8904,1965,Y,Y,4,39,Y,Y,Y,Y,4,N,Y,Y,Y,N,Y,NA
+879,9065,1963,IO,Y,2,7,Y,N,N,N,2,N,N,N,N,Y,Y,NA
+880,9067,1967,IO,Y,3,9,N,N,N,N,3,Y,N,N,N,Y,Y,NA
+881,9221,1967,IO,Y,2,6,Y,N,N,N,2,N,Y,Y,N,N,Y,NA
+882,9281,1968,IO,Y,3,29,Y,Y,Y,N,4,N,Y,Y,N,Y,Y,NA
+883,9344,1964,Y,Y,2,6,N,N,N,N,2,N,Y,N,N,N,Y,NA
+884,9369,1969,Y,Y,4,51,Y,Y,Y,Y,4,N,Y,Y,Y,Y,Y,NA
+885,9587,1966,Y,Y,3,13,N,N,Y,Y,3,Y,Y,Y,N,Y,Y,NA
+886,11212,1969,Y,Y,2,6,N,N,N,N,2,Y,N,N,N,Y,Y,NA
+887,10485,1968,Y,Y,2,7,N,N,N,N,2,N,Y,N,N,Y,Y,NA
+888,11211,1968,Y,Y,2,14,N,Y,N,N,2,N,Y,Y,Y,Y,Y,NA
+889,11214,1969,Y,Y,2,7,Y,N,N,N,2,N,Y,N,N,N,Y,NA
+890,11354,1970,Y,Y,3,12,N,Y,Y,Y,3,N,Y,Y,Y,N,Y,NA
+891,11408,1969,Y,Y,3,11,Y,N,Y,Y,3,N,Y,Y,N,N,Y,NA
+892,11929,1964,Y,Y,4,5,Y,N,N,Y,4,Y,Y,N,N,N,Y,NA
+893,48207,2009,N,Y,4,122,Y,Y,Y,Y,5,Y,Y,Y,Y,N,Y,NA
+894,11930,1964,Y,Y,2,5,Y,N,N,N,2,Y,N,N,N,N,Y,NA
+895,13270,1950,Y,Y,1,2,Y,N,N,N,1,N,Y,N,N,N,N,NA
+896,13442,1947,Y,Y,1,5,Y,N,Y,N,2,N,Y,N,N,Y,Y,NA
+897,13446,1972,N,Y,1,2,N,N,N,N,2,M,N,N,N,N,N,NA
+898,13561,1973,Y,Y,2,8,Y,Y,N,N,3,N,Y,N,N,Y,Y,NA
+899,13668,1973,Y,Y,3,10,Y,Y,Y,Y,3,N,Y,Y,Y,Y,Y,NA
+900,13695,1972,Y,Y,2,5,N,N,N,N,2,N,Y,Y,N,N,Y,NA
+901,13747,1972,Y,Y,1,3,N,N,N,N,1,N,Y,N,N,N,N,NA
+902,13809,1975,N,Y,1,1,N,N,N,N,2,N,Y,N,Y,N,N,NA
+903,13899,1966,Y,Y,3,8,Y,N,Y,N,3,N,Y,N,Y,Y,Y,NA
+904,14097,1969,Y,Y,2,8,Y,N,N,N,2,Y,Y,N,Y,N,Y,NA
+905,29467,1992,Y,Y,3,21,Y,N,Y,Y,3,N,Y,N,Y,N,Y,NA
+906,30673,1983,Y,Y,3,16,N,Y,Y,N,3,N,Y,Y,Y,Y,Y,NA
+907,30822,1997,Y,Y,3,18,Y,N,Y,N,3,N,Y,Y,N,N,Y,NA
+908,32022,1995,Y,Y,3,19,Y,Y,Y,Y,3,N,Y,Y,N,N,Y,NA
+909,32888,1993,Y,Y,1,1,NA,NA,NA,NA,1,NA,NA,Y,NA,NA,Y,NA
+910,38415,2000,Y,Y,1,1,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,Y,NA
+911,39989,2001,Y,Y,2,7,N,Y,N,N,2,N,Y,Y,Y,N,Y,NA
+912,38544,1998,IO,Y,4,63,N,N,N,N,4,N,Y,Y,N,N,N,NA
+913,40153,1954,IO,Y,3,19,Y,N,N,N,3,Y,Y,N,Y,Y,Y,NA
+914,41652,1975,Y,Y,3,17,Y,Y,Y,Y,3,N,N,Y,N,N,Y,NA
+915,47662,2015,IO,Y,4,21,Y,Y,Y,Y,4,N,Y,Y,N,N,Y,NA
+916,47742,1993,Y,Y,2,8,N,N,N,Y,2,N,N,Y,N,N,Y,NA
+917,49197,2006,IO,Y,4,27,Y,N,Y,Y,3,N,Y,Y,N,Y,Y,NA
+918,OAUcharter,1963,Y,Y,2,11,N,N,N,N,2,N,N,Y,N,N,Y,NA
+919,50553,2009,Y,Y,4,43,Y,Y,Y,Y,4,N,Y,Y,Y,N,Y,NA
+920,LoN,1920,IO,Y,2,12,Y,Y,Y,Y,3,N,Y,Y,Y,N,Y,NA
+921,EEC,1957,IO,Y,4,80,N,Y,Y,Y,4,N,N,Y,N,Y,N,NA
+922,ILO,1919,IO,Y,3,20,Y,Y,Y,Y,4,N,Y,Y,Y,N,Y,NA
+923,1358,1949,Y,Y,2,5,Y,N,N,N,2,N,Y,N,N,N,Y,NA
+924,2545,1951,Y,Y,4,24,Y,N,N,N,4,Y,Y,N,Y,Y,Y,NA
+925,5158,1954,Y,Y,4,18,Y,N,N,N,4,Y,Y,N,Y,Y,Y,NA
+926,5503,1958,Y,Y,2,5,N,Y,N,N,2,N,Y,Y,Y,N,Y,NA
+927,7477,1958,Y,Y,2,10,N,N,N,N,3,N,Y,N,N,Y,N,NA
+928,14449,1972,Y,Y,3,8,Y,Y,N,N,3,N,Y,Y,Y,Y,Y,NA
+929,19735,1980,Y,Y,2,2,Y,N,Y,N,2,N,Y,Y,Y,N,N,NA
+930,22376,1982,Y,Y,4,31,Y,Y,Y,Y,4,N,Y,Y,N,N,Y,NA
+931,25822,1985,Y,Y,2,6,N,N,Y,N,2,N,Y,Y,Y,N,Y,NA
