@@ -142,16 +142,16 @@ tn_list = df['treatyNum'].values.tolist()
 
 # Make a list of keywords 
 prec1_list = ['must','should','can','shall'] 
-prec4_list = ['annex','index','appendix','schedules','schedule']
-oblig1_list = ['dispute','arbitration','mediation']   # ADD MORE
+prec4_list = ['annex','index','appendix','schedules','schedule','map','maps']
+oblig1_list = ['dispute','arbitration','mediation','court','settlement','Dispute Settlement Body', 'Appellate Body', 'Investment Court System']  
 oblig2_list = ['monitor','data','report','collection','submission','investigation']
-oblig3_list = ['']   # CHECK WITH BREE
+oblig3_list = ["curtailed", "censure", "sanctions", "expell", "expulsion"]  
 oblig5_list = ['domestic','national authorities','rights of action','legislation']
-deleg1_list = ['International Labor Organization','International Court of Justice']   # ADD MORE
-deleg2_list = ['court','commision','tribunal','task force']    # ADD MORE
-deleg3_list = ['']   # CHECK WITH BREE
-f_list = ['reservation']   # ADD MORE
-w_list = ['denunciation, expiry, terminate, termination, withdrawal']   # ADD MORE
+deleg1_list = ['International Labor Organization','International Court of Justice',"nonprofit", "civil society", "observer", "non-governmental organization", "NGO"]  
+deleg2_list = ['commision','tribunal','task force']# These words are all good, but one key thing is they have to be paired with something that creates or modifies it. 
+deleg3_list = ['lodge a complaint', 'monitor']  
+f_list = ['reservation','opt out, "inequitable burden", "emergency circumstances", "escape']
+w_list = ['denunciation, expiry, terminate, termination, withdrawal'] 
 
 # numpy array for csv final output
 row_content = np.empty((0, 12), str)
@@ -216,16 +216,15 @@ for txt in content_list:
             withdrawal = 'y'
             continue
     
-    #########  WORK ON THIS   ##########
     # Inducements to compliance are attempts to change the payoffs for cooperation and defection.
     for elem in oblig3_list:
         if(elem in txt):
-            oblig3_list ='y'
+            oblig3 = 'y'
             continue
     
     # Does this agreement entrust third parties with monitoring?
     for elem in deleg3_list:
-        if(elem in txt):
+        if(elem in txt and deleg1 == 'y'):
             deleg3 = 'y'
             continue
 
