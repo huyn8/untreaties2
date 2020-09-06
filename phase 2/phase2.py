@@ -1,6 +1,7 @@
 import pandas as pd
 import os
 import csv
+import math
 
 """
 The purpose of this program is to label text data into different categories 
@@ -134,7 +135,7 @@ for stop_word in stop_words:
 LABELING & CLASSIFYING
 """
 # Create column name to write csv 
-col_name = ['treatyNum', 'prec1','prec4','oblig1','oblig2','oblig3','oblig5','deleg1','deleg2','deleg3','flexibility','withdrawal']
+col_name = ['treatyNum', 'prec1','prec3','prec4','oblig1','oblig2','oblig3','oblig4','oblig5','deleg1','deleg2','deleg3','flexibility','withdrawal']
 
 # dataframe of treaty number and content to list 
 content_list = df['cleanedContent'].values.tolist()
@@ -145,16 +146,17 @@ prec1_list = ['must','should','can','shall']
 prec4_list = ['annex','index','appendix','schedules','schedule','map','maps']
 oblig1_list = ['dispute','arbitration','mediation','court','settlement','Dispute Settlement Body', 'Appellate Body', 'Investment Court System']  
 oblig2_list = ['monitor','data','report','collection','submission','investigation']
-oblig3_list = ["curtailed", "censure", "sanctions", "expell", "expulsion"]  
+oblig3_list = ['curtailed', 'censure', 'sanctions', 'expell', 'expulsion']  
 oblig5_list = ['domestic','national authorities','rights of action','legislation']
 deleg1_list = ['International Labor Organization','International Court of Justice',"nonprofit", "civil society", "observer", "non-governmental organization", "NGO"]  
 deleg2_list = ['commision','tribunal','task force']# These words are all good, but one key thing is they have to be paired with something that creates or modifies it. 
 deleg3_list = ['lodge a complaint', 'monitor']  
 f_list = ['reservation','opt out, "inequitable burden", "emergency circumstances", "escape']
-w_list = ['denunciation, expiry, terminate, termination, withdrawal'] 
-
+w_list = ['denunciation', 'expiry', 'terminate', 'termination', 'withdrawal'] 
+oblig4_hard = ['must', "will", "may not", "may", "shall"]
+oblig4_soft = ["try", "endeavor", "put effort", "work toward", "encourage", "urge"]
 # numpy array for csv final output
-row_content = np.empty((0, 12), str)
+row_content = np.empty((0, 14), str)
 i = 0
 
 # for each treaty...
@@ -163,13 +165,41 @@ for txt in content_list:
     treatyNumber = tn_list[i]
     i+=1
     # default as n
-    prec1, prec4, oblig1,oblig2,oblig3,oblig5,deleg1,deleg2,deleg3,flexibility,withdrawal = ['n','n','n','n','n','n','n','n','n','n','n']
+    prec1, prec3, prec4, oblig1,oblig2,oblig3,oblig5,deleg1,deleg2,deleg3,flexibility,withdrawal = ['n',0,'n','n','n','n','n','n','n','n','n','n']
 
+    # Count words in txt for prec3
+    count = len(txt.split())
+    prec3 = str(count)
+    
+    # Count the soft and hard words for oblig4
+    count_soft = 0
+    count_hard = 0
+    for elem in oblig4_hard:
+        if(elem in txt):
+            count_hard += 1
+    for elem in oblig4_soft:
+        if(elem in txt):
+            count_soft += 1
+
+    # check the ratio between hard and soft law keywords
+    if(count_soft == count_hard ):
+        oblig4 = 3
+    elif(count_soft == 0):
+        oblig4 = 5
+    elif(count_hard == 0):
+        oblig4 = 1
+    elif(count_soft < count_hard):
+        oblig4 = 4
+    elif(count_soft > count_hard):
+        oblig4 = 2
+    
+    # prec1
     for elem in prec1_list:
         if(elem in txt):
             prec1 = 'y'
             continue
-        
+    
+    # prec4
     for elems in prec4_list:
         if(elems in txt):
             prec4 = 'y'   
@@ -224,11 +254,12 @@ for txt in content_list:
     
     # Does this agreement entrust third parties with monitoring?
     for elem in deleg3_list:
-        if(elem in txt and deleg1 == 'y'):
-            deleg3 = 'y'
-            continue
+        if(elem in txt):
+            if(deleg1 == 'y'):
+                deleg3 = 'y'
+                continue
 
-    row_content = np.append(row_content, np.array([[treatyNumber,prec1,prec4,oblig1,oblig2,oblig3,oblig5,deleg1,deleg2,deleg3,flexibility,withdrawal]]), axis=0)
+    row_content = np.append(row_content, np.array([[treatyNumber,prec1,prec3,prec4,oblig1,oblig2,oblig3,oblig4,oblig5,deleg1,deleg2,deleg3,flexibility,withdrawal]]), axis=0)
     
 with open('computerLabel.csv', 'w', newline='', encoding='utf8',) as csv_file:
     writer = csv.writer(csv_file)
