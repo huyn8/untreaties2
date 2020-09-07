@@ -15,26 +15,44 @@ they can be commented again to avoid repeated downloads
 """
 
 """
+SUPPORTING FUNTIONS (TO-DOs)
+"""
+#For converting from pdf to txt
+def convert_pdf_to_txt(pdf):
+    return 0
+
+#For converting from word to txt
+def convert_word_to_txt(word):
+    return 0
+
+#For counting words
+def count_words(txt_file):
+    word_count = 0
+    return word_count
+
+
+
+"""
 DATA CREATION
 """
 #Reading in content (data) of all the txt files
-path = os.getcwd() + r'/phase 2/dataset'
-file_content = []
-for file in os.listdir(path):
-    try:
-        f = open(path + '\\' + file, 'r', encoding='utf8')
-        file_content.append([os.path.splitext(file)[0], f.read()])
-    except Exception:
-        print("Error")
+# path = os.getcwd() + r'/phase 2/dataset'
+# file_content = []
+# for file in os.listdir(path):
+#     try:
+#         f = open(path + '\\' + file, 'r', encoding='utf8')
+#         file_content.append([os.path.splitext(file)[0], f.read()])
+#     except Exception:
+#         print("Error")
 
-#Putting the data above into a csv file
-col_names = ['treatyNum', 'content']
-with open('dataset.csv', 'w', newline='', encoding='utf8',) as csv_file:
-    writer = csv.writer(csv_file)
-    writer.writerow(col_names)
-    for i in file_content:
-        writer.writerow(i)
-    csv_file.close()
+# #Putting the data above into a csv file
+# col_names = ['treatyNum', 'content']
+# with open('dataset.csv', 'w', newline='', encoding='utf8',) as csv_file:
+#     writer = csv.writer(csv_file)
+#     writer.writerow(col_names)
+#     for i in file_content:
+#         writer.writerow(i)
+#     csv_file.close()
 
 """
 CLEANING DATA
@@ -144,17 +162,18 @@ tn_list = df['treatyNum'].values.tolist()
 # Make a list of keywords 
 prec1_list = ['must','should','can','shall'] 
 prec4_list = ['annex','index','appendix','schedules','schedule','map','maps']
-oblig1_list = ['dispute','arbitration','mediation','court','settlement','Dispute Settlement Body', 'Appellate Body', 'Investment Court System']  
+oblig1_list = ['dispute','arbitration','mediation','court','settlement','dispute settlement Body', 'appellate body', 'investment court system']  
 oblig2_list = ['monitor','data','report','collection','submission','investigation']
-oblig3_list = ['curtailed', 'censure', 'sanctions', 'expell', 'expulsion']  
+oblig3_list = ["curtail", "censure", "sanction", "expell", "expulsion"]  
 oblig5_list = ['domestic','national authorities','rights of action','legislation']
-deleg1_list = ['International Labor Organization','International Court of Justice',"nonprofit", "civil society", "observer", "non-governmental organization", "NGO"]  
+deleg1_list = ['international labor organization','international court of justice',"nonprofit", "civil society", "observer", "non governmental organization", "ngo"]  
 deleg2_list = ['commision','tribunal','task force']# These words are all good, but one key thing is they have to be paired with something that creates or modifies it. 
-deleg3_list = ['lodge a complaint', 'monitor']  
-f_list = ['reservation','opt out, "inequitable burden", "emergency circumstances", "escape']
-w_list = ['denunciation', 'expiry', 'terminate', 'termination', 'withdrawal'] 
 oblig4_hard = ['must', "will", "may not", "may", "shall"]
 oblig4_soft = ["try", "endeavor", "put effort", "work toward", "encourage", "urge"]
+deleg3_list = ['lodge complaint', 'monitor']  
+f_list = ['reservation','opt out', "inequitable burden", "emergency circumstance", "escape"]
+w_list = ['denunciation, expiry, terminate, termination, withdrawal'] 
+
 # numpy array for csv final output
 row_content = np.empty((0, 14), str)
 i = 0
