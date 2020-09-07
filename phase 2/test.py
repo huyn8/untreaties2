@@ -29,10 +29,13 @@ class TestStringMethods(unittest.TestCase):
         for row in range(1, np.shape(df_computer)[0]):
             value = True
             for column in range(1, np.shape(df_computer)[1]):
-                if df_computer.iloc[row, column].lower() == list(df_compare.iloc[row, column].lower())[0]:
-                    value = True
-                else:
-                    value = False
+                try:
+                    if df_computer.iloc[row, column].lower() == list(df_compare.iloc[row, column].lower())[0]:
+                        value = True
+                    else:
+                        value = False
+                except (Exception):
+                    continue
             print("Document: ", df_computer.iloc[row,0], " -> Same values?", value)
 
        

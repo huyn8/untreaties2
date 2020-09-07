@@ -1,12 +1,12 @@
-,treatyNum,prec1,prec4,oblig1,oblig2,oblig3,oblig5,deleg1,deleg2,deleg3,flexibility,withdrawal
-729,102,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
-728,108,Y,N,N,Y,N,N,Y,Y,Y,N,Y
-734,15,Y,Y,Y,N,Y,Y,Y,Y,N,Y,Y
-719,170,Y,N,Y,N,N,N,Y,N,N,N,N
-718,172,Y,Y,Y,Y,Y,N?,Y,Y?,Y,Y,Y
-733,20 (b),Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
-727,296,Y,Y,N,N,N,N,Y,N,N,N,Y
-717,297,Y,Y,N,N,N,N?,Y,N,N,N,N
-772,345,Y,N,Y,N,N,N,Y,Y,N,N,Y
-736,449,Y,Y,Y,N,N,N,Y,Y,N,Y,Y
-737,55 (a),N,N,N,N,N,N,N,N,N,Y,Y
+,treatyNum,prec1,prec3,prec4,oblig1,oblig2,oblig3,oblig4,oblig5,deleg1,deleg2,deleg3,flexibility,withdrawal
+729,102,Y,61,Y,Y,Y,Y,4.0,Y,Y,Y,Y,Y,Y
+728,108,Y,16,N,N,Y,N,4.0,N,Y,Y,Y,N,Y
+734,15,Y,36,Y,Y,N,Y,4.0,Y,Y,Y,N,Y,Y
+719,170,Y,19,N,Y,N,N,5.0,N,Y,N,N,N,N
+718,172,Y,27,Y,Y,Y,Y,4.0,N?,Y,Y?,Y,Y,Y
+733,20 (b),Y,19,Y,Y,Y,Y,5.0,Y,Y,Y,Y,Y,Y
+727,296,Y,5,Y,N,N,N,3.0,N,Y,N,N,N,Y
+717,297,Y,8,Y,N,N,N,4.0,N?,Y,N,N,N,N
+772,345,Y,4,N,Y,N,N,3.0,N,Y,Y,N,N,Y
+736,449,Y,14,Y,Y,N,N,4.0,N,Y,Y,N,Y,Y
+737,55 (a),N,7,N,N,N,N,5.0,N,N,N,N,Y,Y

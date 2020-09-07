@@ -162,7 +162,7 @@ tn_list = df['treatyNum'].values.tolist()
 # Make a list of keywords 
 prec1_list = ['must','should','can','shall'] 
 prec4_list = ['annex','index','appendix','schedules','schedule','map','maps']
-oblig1_list = ['dispute','arbitration','mediation','court','settlement','dispute settlement Body', 'appellate body', 'investment court system']  
+oblig1_list = ['dispute','arbitration','mediation','court','settlement','dispute settlement body', 'appellate body', 'investment court system']  
 oblig2_list = ['monitor','data','report','collection','submission','investigation']
 oblig3_list = ["curtail", "censure", "sanction", "expell", "expulsion"]  
 oblig5_list = ['domestic','national authorities','rights of action','legislation']
