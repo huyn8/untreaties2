@@ -2,6 +2,8 @@ import pandas as pd
 import os
 import csv
 import math
+import PyPDF2
+
 
 """
 The purpose of this program is to label text data into different categories 
@@ -15,44 +17,59 @@ they can be commented again to avoid repeated downloads
 """
 
 """
-SUPPORTING FUNTIONS (TO-DOs)
-"""
-#For converting from pdf to txt
-def convert_pdf_to_txt(pdf):
-    return 0
-
-#For converting from word to txt
-def convert_word_to_txt(word):
-    return 0
-
-#For counting words
-def count_words(txt_file):
-    word_count = 0
-    return word_count
-
-
-
-"""
 DATA CREATION
 """
 #Reading in content (data) of all the txt files
-# path = os.getcwd() + r'/phase 2/dataset'
-# file_content = []
-# for file in os.listdir(path):
-#     try:
-#         f = open(path + '\\' + file, 'r', encoding='utf8')
-#         file_content.append([os.path.splitext(file)[0], f.read()])
-#     except Exception:
-#         print("Error")
+path = os.getcwd() + r'\dataset'
+file_content = []
+# count = 0
+filename_previous = '' #placeholder
 
-# #Putting the data above into a csv file
-# col_names = ['treatyNum', 'content']
-# with open('dataset.csv', 'w', newline='', encoding='utf8',) as csv_file:
-#     writer = csv.writer(csv_file)
-#     writer.writerow(col_names)
-#     for i in file_content:
-#         writer.writerow(i)
-#     csv_file.close()
+for file in os.listdir(path):
+    try:
+        filename, file_extension = file.split('.')
+
+        #ignore duplicate files
+        if (filename_previous == filename) or (('(1)' or '(2)') in filename):
+            continue
+
+        #some pdf documents don't have .txt formats, this will make sure to solve that
+        if file_extension == 'pdf':
+            pdfFileObj = open (path + '\\' + file, 'rb')
+            pdfReader = PyPDF2.PdfFileReader(pdfFileObj, strict=False) 
+            pdf_texts = []
+            for page in range(0, pdfReader.numPages):
+                pageObj = pdfReader.getPage(page) 
+                pdf_texts.append(pageObj.extractText())
+            pdfFileObj.close()
+            file_content.append([filename, pdf_texts])
+            filename_previous = filename
+            # count+=1
+            continue
+
+        #ignore .docx or .doc files
+        if file_extension != 'txt':
+            continue
+
+        else:
+            f = open(path + '\\' + file, 'r', encoding='utf8')
+            file_content.append([os.path.splitext(file)[0], f.read()])
+            filename_previous = filename
+            # count+=1
+        # if count == 30:
+        #     break
+    except Exception:
+        print("An Error Was Found: A File Corrupted")
+        continue
+    
+#Putting the data above into a csv file called dataset.csv
+col_names = ['treatyNum', 'content']
+with open('dataset.csv', 'w', newline='', encoding='utf8',) as csv_file:
+    writer = csv.writer(csv_file)
+    writer.writerow(col_names)
+    for i in file_content:
+        writer.writerow(i)
+    csv_file.close()
 
 """
 CLEANING DATA
@@ -89,7 +106,7 @@ df_copy = df.copy(deep=True)
 #Uncomment to see the data before cleaning
 # print('Before cleaning:')
 # print(df_copy.head(3))
-# print(df_copy.loc[1]['content'])
+# print(df_copy.loc[0]['content'])
 
 #Panda dataframes (2d) can be broken down into series (1d)
 #Cleaning a panda 1d array (series)
@@ -104,7 +121,7 @@ df_copy['cleanedContent'] = df_copy['cleanedContent'].str.replace("'s","")
 df_copy['cleanedContent'] = df_copy['cleanedContent'].str.lower()
 
 #Cleaning punctuation
-punctuations = list("?:!.,;~﻿")
+punctuations = list("?:!.,;~﻿\/_-()'[]")
 
 for punctuation in punctuations:
     df_copy['cleanedContent']  = df_copy['cleanedContent'].str.replace(punctuation, '')
@@ -117,24 +134,24 @@ nrows = len(df_copy)
 lemmatized_text_list = []
 
 for row in range(0, nrows):
-    # Create an empty list containing lemmatized words
-    lemmatized_list = []
+        # Create an empty list containing lemmatized words
+        lemmatized_list = []
 
-    # Save the text and its words into an object
-    text = df_copy.loc[row]['cleanedContent']
-    text_words = text.split(" ")
+        # Save the text and its words into an object
+        text = df_copy.loc[row]['cleanedContent']
+        text_words = text.split(" ")
 
-    # Iterate through every word to lemmatize
-    for word in text_words:
-        lemmatized_list.append(wordnet_lemmatizer.lemmatize(word, pos="v"))
+        # Iterate through every word to lemmatize
+        for word in text_words:
+            lemmatized_list.append(wordnet_lemmatizer.lemmatize(word, pos="v"))
 
-    # Join each word back together seperated by a space
-    lemmatized_text = " ".join(lemmatized_list)
-    
-    # Append to the list containing the texts
-    lemmatized_text_list.append(lemmatized_text)
+        # Join each word back together seperated by a space
+        lemmatized_text = " ".join(lemmatized_list)
+        
+        # Append to the list containing the texts
+        lemmatized_text_list.append(lemmatized_text)
 
-df['cleanedContent'] = lemmatized_text_list
+df_copy['cleanedContent'] = lemmatized_text_list
 
 #Stop words removing
 stop_words = list(stopwords.words('english'))
@@ -143,10 +160,13 @@ for stop_word in stop_words:
     regex_stopword = r"\b" + stop_word + r"\b"
     df_copy['cleanedContent'] = df_copy['cleanedContent'].str.replace(regex_stopword, '')
 
+#Dropping duplicates
+df_copy = df_copy.drop_duplicates(subset='treatyNum', keep='first')
+
 #Uncomment to see the data after cleaning
 # print('After cleaning:')
 # print(df_copy.head(3))
-# print(df_copy.loc[1]['cleanedContent'])
+# print(df_copy.loc[0]['cleanedContent'])
 
 
 """
@@ -156,8 +176,8 @@ LABELING & CLASSIFYING
 col_name = ['treatyNum', 'prec1','prec3','prec4','oblig1','oblig2','oblig3','oblig4','oblig5','deleg1','deleg2','deleg3','flexibility','withdrawal']
 
 # dataframe of treaty number and content to list 
-content_list = df['cleanedContent'].values.tolist()
-tn_list = df['treatyNum'].values.tolist()
+content_list = df_copy['cleanedContent'].values.tolist()
+tn_list = df_copy['treatyNum'].values.tolist()
 
 # Make a list of keywords 
 prec1_list = ['must','should','can','shall'] 
