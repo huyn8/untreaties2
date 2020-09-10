@@ -21,7 +21,7 @@ class TestStringMethods(unittest.TestCase):
         df_compare = pd.DataFrame(columns=df_computer.columns)
       
         for i in df_computer['treatyNum']:
-            df_compare = df_compare.append(df_human.loc[df_human['treatyNum'] == str(i)])
+            df_compare = df_compare.append(df_human.loc[df_human['treatyNum'] == i])
 
         #removing duplicates
         df_compare = df_compare.drop_duplicates(subset='treatyNum', keep='first')
