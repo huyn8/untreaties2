@@ -18,7 +18,7 @@ Through extensive research and experimenting, the project has finally come to a 
 2. When running the program, make sure to comment out the "DATA CREATION" section because the data has already been created in the dataset.csv file.
 3. Only run the code below the "DATA CREATION" section and wait for the output to be created.
 4. It takes approximately 2-3 minutes for the final labeled data to be created. 
-5. The labeled data will be created in a csv file named computerLabel.csv.
+5. The labeled data will be created in a csv file named **computerLabel.csv**.
 6. Additional details can be found in the comments of the code that are more specific to each part of the program. 
 
 #### General instructions for running the test.py program are listed below:
