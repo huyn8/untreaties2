@@ -8,7 +8,7 @@ Through extensive research and experimenting, the project has finally come to a 
 2. The raw data can now be processed/cleaned.
 3. Data are cleaned and ready for labeling.
 4. Since the data are unstructured(unlabeled) the majority of the work is done to label and structure the data.
-5. All data are now labeled and ready for future modeling if needed. The labeled data can be found in the file computerLabel.csv
+5. All data are now labeled and ready for future modeling if needed. The labeled data can be found in the file **computerLabel.csv**
 6. A test program (test.py) was created to compare the computer-labeled data against human-labeled data. 
 7. The results produced by the computer-labeled and human-labeled data were different and had little similarity.
 8. Further analysis on the final results can be found [here](https://docs.google.com/document/d/1Treiz0OLnxE3GvpXI1_XHfjGH_MR88QgZh-FmU-5Sxo/edit?usp=sharing).
