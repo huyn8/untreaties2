@@ -19,57 +19,57 @@ they can be commented again to avoid repeated downloads
 """
 DATA CREATION
 """
-#Reading in content (data) of all the txt files
-path = os.getcwd() + r'\dataset'
-file_content = []
+# #Reading in content (data) of all the txt files
+#path = os.getcwd() + r'\dataset'
+# file_content = []
 # count = 0
-filename_previous = '' #placeholder
+# filename_previous = '' #placeholder
 
-for file in os.listdir(path):
-    try:
-        filename, file_extension = file.split('.')
+# for file in os.listdir(path):
+#     try:
+#         filename, file_extension = file.split('.')
 
-        #ignore duplicate files
-        if (filename_previous == filename) or (('(1)' or '(2)') in filename):
-            continue
+#         #ignore duplicate files
+#         if (filename_previous == filename) or (('(1)' or '(2)') in filename):
+#             continue
 
-        #some pdf documents don't have .txt formats, this will make sure to solve that
-        if file_extension == 'pdf':
-            pdfFileObj = open (path + '\\' + file, 'rb')
-            pdfReader = PyPDF2.PdfFileReader(pdfFileObj, strict=False) 
-            pdf_texts = []
-            for page in range(0, pdfReader.numPages):
-                pageObj = pdfReader.getPage(page) 
-                pdf_texts.append(pageObj.extractText())
-            pdfFileObj.close()
-            file_content.append([filename, pdf_texts])
-            filename_previous = filename
-            # count+=1
-            continue
+#         #some pdf documents don't have .txt formats, this will make sure to solve that
+#         if file_extension == 'pdf':
+#             pdfFileObj = open (path + '\\' + file, 'rb')
+#             pdfReader = PyPDF2.PdfFileReader(pdfFileObj, strict=False) 
+#             pdf_texts = []
+#             for page in range(0, pdfReader.numPages):
+#                 pageObj = pdfReader.getPage(page) 
+#                 pdf_texts.append(pageObj.extractText())
+#             pdfFileObj.close()
+#             file_content.append([filename, pdf_texts])
+#             filename_previous = filename
+#             # count+=1
+#             continue
 
-        #ignore .docx or .doc files
-        if file_extension != 'txt':
-            continue
+#         #ignore .docx or .doc files
+#         if file_extension != 'txt':
+#             continue
 
-        else:
-            f = open(path + '\\' + file, 'r', encoding='utf8')
-            file_content.append([os.path.splitext(file)[0], f.read()])
-            filename_previous = filename
-            # count+=1
-        # if count == 30:
-        #     break
-    except Exception:
-        print("An Error Was Found: A File Corrupted")
-        continue
+#         else:
+#             f = open(path + '\\' + file, 'r', encoding='utf8')
+#             file_content.append([os.path.splitext(file)[0], f.read()])
+#             filename_previous = filename
+#             # count+=1
+#         # if count == 30:
+#         #     break
+#     except Exception:
+#         print("An Error Was Found: A File Corrupted")
+#         continue
     
-#Putting the data above into a csv file called dataset.csv
-col_names = ['treatyNum', 'content']
-with open('dataset.csv', 'w', newline='', encoding='utf8',) as csv_file:
-    writer = csv.writer(csv_file)
-    writer.writerow(col_names)
-    for i in file_content:
-        writer.writerow(i)
-    csv_file.close()
+# #Putting the data above into a csv file called dataset.csv
+# col_names = ['treatyNum', 'content']
+# with open('dataset.csv', 'w', newline='', encoding='utf8',) as csv_file:
+#     writer = csv.writer(csv_file)
+#     writer.writerow(col_names)
+#     for i in file_content:
+#         writer.writerow(i)
+#     csv_file.close()
 
 """
 CLEANING DATA
@@ -90,10 +90,10 @@ import re
 import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
-#uncomment these three lines for first execution of the code
-# nltk.download('punkt')
-# nltk.download('wordnet')
-# nltk.download('stopwords')
+# If a download error occurs, comment out the following 3 lines of code
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('stopwords')
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.feature_selection import chi2
@@ -306,4 +306,3 @@ with open('computerLabel.csv', 'w', newline='', encoding='utf8',) as csv_file:
     writer.writerows(row_content)
     csv_file.close()
     
-#IN PROGRESS...
