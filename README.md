@@ -25,4 +25,4 @@ Exploring machine learning and data modeling
 
 See the code [here](https://github.com/huyn8/untreaties2/blob/master/phase%202/phase2.py)
 
- Take a look at the [readme](https://github.com/huyn8/untreaties2/blob/master/phase%202/README.md) file for general information regarding to the processes of the program for phase 2
+ Take a look at the [readme](https://github.com/huyn8/untreaties2/tree/master/phase%202) file for general information regarding to the processes of the program for phase 2
