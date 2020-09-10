@@ -1,9 +1,8 @@
 # PHASE 2 GENERAL INFORMATION & INSTRUCTIONS
 The objective of phase 2 of the project is to explore machine learning and data modeling through a set of provided data.
-
 Through extensive research and experimenting, the project has finally come to a conclusion. 
 
-### The main program for the project is inside the phase2.py file. 
+### The main program for the project is inside the phase2.py file
 #### General processes for the program are listed below:
 1. Raw data are selected and loaded into the python program.
 2. The raw data can now be processed/cleaned.
