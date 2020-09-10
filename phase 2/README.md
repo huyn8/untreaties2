@@ -1,4 +1,4 @@
-# PHASE 2 GENERAL INFORMATION
+# PHASE 2 GENERAL INFORMATION & INSTRUCTIONS
 The objective of phase 2 of the project is to explore machine learning and data modeling through a set of provided data.
 
 Through extensive research and experimenting, the project has finally come to a conclusion. 
