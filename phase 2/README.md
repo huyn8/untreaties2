@@ -25,3 +25,6 @@ Through extensive research and experimenting, the project has finally come to a 
 1. The test.py program is another python program used to compare computer-labeled data and human-labeled data.
 2. Run the program and a comparision will be done automatically.
 3. This program is for referencing purposes only. 
+
+#### Instructions for running the MLtreaty.py program are listed below: (optional)
+[link] (https://docs.google.com/document/d/1hxAm-5-bOnQJEnH6zgyGCOfGkfcHObQo6MnsYN9IQbg/edit?usp=sharing)
